@@ -20,13 +20,14 @@ return (
 
             <div className="medias">
               <div id="Github">
-              <img src="./src/assets/github_logo.png" href="https://github.com"></img>
+              <img src="./src/assets/github_logo.png" href="https://github.com" className="Github"></img>
               </div>
               <div id="X">
               <img src="./src/assets/footer_X.png" href="https://github.com" className="X"></img>
               </div>
               <div id="LinkedIn">
-              <img src="./src/assets/footer_LINKEDin.png" href="https://github.com" className="LinnkdIn"></img>
+              <img src="./src/assets/footer_LINKEDin.png" href="https://github.com" className="LinkdIn"></img>
+              </div>
               </div>
               <div className="liens-utiles">
             <h3>Liens utiles</h3>
@@ -72,7 +73,6 @@ return (
               Se positionner sur google
             </Link>
           </div>
-        </div>
       </div>
 
       <div className="copyright">&copy; Designed by John Doe</div>

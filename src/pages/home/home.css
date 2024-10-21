@@ -191,7 +191,7 @@ nav {
 #brandfooter {
   font-size: 1.5em;
   font-weight: 600;
-  padding-right: 2.5em;
+  margin-right: 25em;
 }
 
 .copyright {
@@ -214,18 +214,44 @@ nav {
 
 #medias {
   display: flex;
-  align-content: space-between;
+  flex-direction: row;
   height: 2em;
+  width: 20em;
 }
 
-#Github {
-  height: 2em;
+.Github {
+  height: 2.5em;
+  margin-right: 35em;
 }
 
-#X {
-  height: 2em;
+.X {
+  height: 2.5em;
+  margin-right: 35em;
 }
 
-#LinkedIn {
-  height: 2em;
+.LinkdIn {
+  height: 2.5em;
+  margin-right: 35em;
+}
+
+.liens-utiles {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+  text-align: left;
+}
+
+.liens-realisations {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+  text-align: left;
+}
+
+
+.liens-articles {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+  text-align: left;
 }
