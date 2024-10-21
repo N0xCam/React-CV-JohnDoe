@@ -1,0 +1,231 @@
+/*Header */
+
+nav {
+  background-color: #1e1e1e;
+}
+
+#brand {
+  color : white;
+  text-transform: uppercase;
+  font-weight: 630;
+  font-size: 1.5em;
+}
+
+.navbar-toggler {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.nav-link {
+  color : #797373;
+  font-size: 1.2em;
+  display: flex;
+  padding-left: 1em;
+  font-weight: 610;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color : white;
+}
+
+@media (min-width: 992px) {
+  .titleNav {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (min-width: 480px) {
+  .titleNav {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+/*Main */
+
+#Introduction {
+  background-image: url(/src/assets/home/home-me-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30em;
+}
+
+#Hello {
+  color:white;
+  font-size:1.7em;
+  font-weight: 530;
+  display: flex;
+  padding-top: 5em;
+}
+
+#Job {
+  color: white;
+  font-size:1em;
+}
+
+.button {
+  background-color: #0d6efd;
+  color:white;
+  height: 2em;
+  font-size: 0.5em;
+  font-weight: 200;
+  text-align: center;
+}
+
+#presentation {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+#about {
+  padding-top: 3em;
+  padding-bottom: 0.5em;
+  margin-right: 10em;
+  border-radius: 1%;
+  margin-top: 2rem;
+  font-size: 1.5em;
+  border-bottom: 1.2px solid #0d6efd;
+  
+}
+
+.text {
+
+  text-align:start;
+  
+}
+
+#me {
+  background-image: url(/src/assets/home/about-mobile.jpg);
+  background-repeat: no-repeat;
+  height: 15em;
+  border-radius: 7%;
+  
+}
+
+/* Tablette */
+@media (min-width: 768px){
+  #Introduction {
+    background-image: url(/src/assets/home/home-me-tablette.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    height: 17em;
+  }
+  #Hello {
+    font-size: 2em;
+    color:white;
+    padding-top: 3.5em;
+  }
+  #Job {
+    font-size: 1em;
+  }
+  #about {
+    width: 10em;
+    padding-top: 2em;
+  }
+  .text {
+    width: 20em;
+    margin-left: 1em;
+  }
+  #presentation {
+    display:flex;
+  }
+  #mypresentation {
+    width: 20em;
+  }
+  #me {
+    margin-left: 2em;
+    margin-top: 2em;
+    width: 20em;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  #Introduction {
+    background-image: url(/src/assets/home/home-me-desktop.jpg);
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    padding-top: 0;
+    position:top;
+  }
+ #hello {
+    font-size: 4em;
+    color :white;
+  
+  }
+  #about {
+    align-items: stretch;
+  }
+  .text {
+    width: 22em;
+  }
+  #presentation {
+    display:flex;
+  }
+  #me {
+    margin-left: 1em;
+    margin-top: 3em;
+    width: 30em;
+  }
+}
+
+
+
+/*
+/*Footer
+*/
+
+#container {
+  display: flex;
+  align-items: left;
+}
+
+#brandfooter {
+  font-size: 1.5em;
+  font-weight: 600;
+  padding-right: 2.5em;
+}
+
+.copyright {
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  background-color: #1e1e1e;
+}
+
+.address address em {
+  font-size: 1.2em;
+  font-weight: 520;
+  display: flex;
+  padding-left: 3em;
+  color : #797373;
+}
+
+#medias {
+  display: flex;
+  align-content: space-between;
+  height: 2em;
+}
+
+#Github {
+  height: 2em;
+}
+
+#X {
+  height: 2em;
+}
+
+#LinkedIn {
+  height: 2em;
+}

@@ -1,0 +1,89 @@
+#banner {
+    background-image: url(/src/assets/banner-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10em;
+}
+
+h2 {
+    font-weight: 400;
+    margin-right: 3em;
+    margin-top: 1em;
+}
+
+#presta {
+    font-size: 1.5em;
+    font-weight: 500;
+    border-bottom: 7px solid #0d6efd;
+    border-width: 0.2em;
+}
+
+.services {
+    margin-top: 7em;
+    width: 20em;
+    margin-left: 6em;
+}
+
+h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+/* Tablette */
+@media (min-width: 768px) {
+    #banner {
+        background-image: url(/src/assets/banner-tablette.jpg);
+        
+    }
+    h2 {
+        margin-right: 2em;
+    }
+    #presta {
+        font-size: 1em;
+        margin-left: 3.5em;
+    }
+    #col {
+        display: flex;
+        align-self: flex-start;
+        width: 25em;
+        padding-right: 0em;
+    }
+    .services {
+        width: 17em;
+    }
+    .text-service {
+        font-size: 1em;
+        width: 10em;
+    }
+}
+
+/* Desktop */
+@media (min-width: 991px) {
+    #banner {
+        background-image: url(/src/assets/banner-tablette.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h2 {
+        margin-right: 2em;
+    }
+    #presta {
+        font-size: 1em;
+        margin-left: 3.5em;
+    }
+    #col {
+        display: flex;
+        align-self: flex-start;
+        width: 25em;
+        padding-right: 0em;
+    }
+    .services {
+        width: 17em;
+    }
+    .text-service {
+        font-size: 1em;
+        width: 10em;
+    }   
+}

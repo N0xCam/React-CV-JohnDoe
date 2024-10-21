@@ -1,0 +1,22 @@
+#title-blog {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+#little-tittle-blog {
+    font-size: 2em;
+}
+
+/* Tablette */
+@media (min-width: 768px) {
+    .realisations {
+        display: flex;
+        flex-direction: row;
+        width: 20em;
+    }
+}
+
+/* Desktop */
+@media (min-width: 991px) {
+
+}

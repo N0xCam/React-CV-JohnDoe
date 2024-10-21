@@ -1,0 +1,28 @@
+h2 {
+    font-size: 2em;
+    margin-left: 2;
+}
+
+#little-title-realisations {
+    font-size: 1.5em;
+}
+
+/* Tablette */
+@media (min-width: 768px) {
+    #realisations {
+        width: 30em;
+        display: flex;
+        padding-right: 2em;
+    }
+
+}
+
+/*Desktop */
+@media (min-width: 991px) {
+    #realisations {
+        display: flex;
+        flex-direction: row;
+        width: 50em;
+    }
+   
+}

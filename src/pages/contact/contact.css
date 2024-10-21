@@ -1,0 +1,81 @@
+
+#contact {
+    border-width: 2vh;
+    border-style: solid;
+    border-color: blue;
+}
+
+#content {
+    background-color: white;
+}
+
+#title-contact {
+    font-size: 2em;
+    width: 5em;
+    text-transform: uppercase;
+    margin-left: 6em;
+}
+
+#little-title-contact {
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+p {
+    font-size: 2vh;
+}
+
+#title-form {
+    width: 7em;
+    font-size: 2em;
+    display: flex;
+    margin-left: 2em;
+}
+
+#myform {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#btn {
+    background-color: blue;
+    color: white;
+    width: 20vh;
+}
+#form {
+    font-size: 4vh;
+}
+
+em {
+    display: flex;
+
+}
+
+#myform {
+    width: 15em;
+}
+
+.colonne {
+    display:flex;
+}
+
+h3 {
+    border-bottom: 4px solid #0d6efd;
+}
+
+/* Tablette */
+@media (min-width: 768px) {
+    .colonne {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+/*Desktop */
+@media (min-width: 991px) {
+
+}
