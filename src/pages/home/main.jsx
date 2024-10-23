@@ -1,4 +1,4 @@
-import { ProgressBar} from "react-bootstrap";
+import React from "react";
 
 const Home = () => {
 
@@ -10,14 +10,15 @@ const Home = () => {
             <h2 id="Hello"> Bonjour, je suis John Doe</h2>
             <h2 id="Job"> Développeur web full stack</h2>
             <div id="bouton">
-            <button className="button"> En savoir plus </button>
+            <a href="#presentation">  <button>  En savoir plus</button> </a>
             </div>
             </header>
 
             <div id="presentation">
             <div className='colonnes'>
-            <section id="Presentation">
+            <section id="presentation">
                 <h2 id="about"> À propos </h2>
+                <div className="bord"></div>
                 <article className="mypresentation">
                 <p className='text'>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d' <strong>intégrateur-développeur web </strong>au CEF. Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>. </p>
 
@@ -34,32 +35,83 @@ const Home = () => {
             <div className='colonnes'>
                 
                <div id="me"></div>
-                <article id="skills2">
-                    <h3> Mes compétences </h3>     
+              
+                    <h3 id="myskills"> Mes compétences </h3>     
 
-                
-                <div className='progress'> HTML 90% 
-                <ProgressBar variant="danger" now={90} />
-                
+                <div id="skills">
+                    <span className="descr-skills">html5 90%</span>
+              <div
+                className="progress"
+                role="progressbar"
+                aria-label="Success example"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  className="progress-bar bg-danger"
+                  style={{ width: "90%" }}
+                ></div>
+              </div>
+              <span className="descr-skills">css3 80%</span>
+              <div
+                className="progress"
+                role="progressbar"
+                aria-label="Info example"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  className="progress-bar bg-info"
+                  style={{ width: "80%" }}
+                ></div>
+              </div>
+              <span className="descr-skills">javascript 70%</span>
+              <div
+                className="progress"
+                role="progressbar"
+                aria-label="Warning example"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  className="progress-bar bg-warning"
+                  style={{ width: "70%" }}
+                ></div>
+              </div>
 
-                <div className='progress'> CSS3 80% </div>
-                <ProgressBar variant="info" now={80} />
-                
-
-                <div className='progress'> JAVASCRIPT 70% </div>
-                <ProgressBar variant="warning" now={70} />
-                
-
-                <div className='progress'> PHP 60% </div>
-                <ProgressBar variant="success" now={60} />
-                
-
-                <div className='progress'> REACT 50% </div>
-                <ProgressBar variant="danger" now={50} />
-                
+              <span className="descr-skills">php 60%</span>
+              <div
+                className="progress"
+                role="progressbar"
+                aria-label="Danger example"
+                aria-valuenow="60"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  className="progress-bar bg-success"
+                  style={{ width: "60%" }}
+                ></div>
+              </div>
+              <span className="descr-skills">react 50%</span>
+              <div
+                className="progress"
+                role="progressbar"
+                aria-label="Danger example"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  className="progress-bar bg-primary"
+                  style={{ width: "50%" }}
+                ></div>
                 </div>
-                
-            </article>
+          
+            </div>
             </div>
             </div>
             </div>

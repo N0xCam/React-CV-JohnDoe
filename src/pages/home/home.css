@@ -2,36 +2,42 @@
 
 nav {
   background-color: #1e1e1e;
+  width: 26em;
 }
 
 #brand {
   color : white;
   text-transform: uppercase;
-  font-weight: 630;
+  font-weight: 500;
   font-size: 1.5em;
+  margin-left: 0.5em;
 }
 
 .navbar-toggler {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 2rem;
-  width: 2rem;
+  padding-left: 2em;
+  width: 0.2em;
   height: 2rem;
-}
-
-.nav-link {
-  color : #797373;
-  font-size: 1.2em;
-  display: flex;
-  padding-left: 1em;
-  font-weight: 610;
-  text-transform: uppercase;
+  border-color: beige;
+  border-width: 0.5em;
 }
 
 .nav-link:hover {
   color : white;
 }
+
+.nav-link {
+  color : #797373;
+  font-size: 1.1em;
+  display: flex;
+  padding-left: 1em;
+  font-weight: 5500;
+  text-transform: uppercase;
+}
+
+
 
 @media (min-width: 992px) {
   .titleNav {
@@ -52,59 +58,99 @@ nav {
 #Introduction {
   background-image: url(/src/assets/home/home-me-mobile.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 30em;
+  height: 50em;
+  width: 26em;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 #Hello {
   color:white;
-  font-size:1.7em;
-  font-weight: 530;
+  font-size:2.5em;
+  font-weight: 500;
   display: flex;
   padding-top: 5em;
+  padding-left: 1em;
+  width: 8em;
+  margin-top: 0px;
 }
 
 #Job {
   color: white;
-  font-size:1em;
+  font-size:1.2em;
+  padding-left: 2.5em;
 }
 
-.button {
+button {
   background-color: #0d6efd;
   color:white;
-  height: 2em;
-  font-size: 0.5em;
-  font-weight: 200;
+  height: 2.3em;
+  font-size: 1em;
+  font-weight: 300;
   text-align: center;
 }
 
 #presentation {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.15);
+  padding-bottom: 2em;
 }
 
 #about {
   padding-top: 3em;
   padding-bottom: 0.5em;
-  margin-right: 10em;
   border-radius: 1%;
   margin-top: 2rem;
   font-size: 1.5em;
-  border-bottom: 1.2px solid #0d6efd;
-  
+  border-width: 2px;
+  display: flex;
+  margin-left: 2em;
+}
+
+.bord {
+  border: 1.2px solid #0d6efd;
+  width: 20em;
+  margin-left: 3em;
+  margin-bottom: 1em;
 }
 
 .text {
-
   text-align:start;
-  
+  width: 18em;
+  margin-left: 2em;
 }
 
 #me {
   background-image: url(/src/assets/home/about-mobile.jpg);
   background-repeat: no-repeat;
   height: 15em;
+  width: 22em;
+  margin-left: 2em;
   border-radius: 7%;
   
+}
+
+#myskills {
+  font-size: 1.5em;
+  font-weight: 50;
+  display: flex;
+  margin-left: 2em;
+  padding-top: 1em;
+}
+
+#skills {
+  width: 20em;
+  margin-right: 2em;
+  margin-left: 4em;
+
+}
+
+.descr-skills {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 500;
+  display: flex;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
 }
 
 /* Tablette */
@@ -186,12 +232,15 @@ nav {
 #container {
   display: flex;
   align-items: left;
+  width: 20em;
 }
 
 #brandfooter {
+  margin-top: 5em;
   font-size: 1.5em;
   font-weight: 600;
-  margin-right: 25em;
+  display: flex;
+  padding-left: 1em;
 }
 
 .copyright {
@@ -204,54 +253,75 @@ nav {
   background-color: #1e1e1e;
 }
 
-.address address em {
-  font-size: 1.2em;
+#footer-address {
+  font-size: 1em;
   font-weight: 520;
   display: flex;
-  padding-left: 3em;
+  flex-direction: column;
+  padding-left: 1.5em;
+  font-style: none;
   color : #797373;
 }
 
-#medias {
+em {
+  font-style: none;
+}
+
+.medias {
+  height: 2em;
+  width: 10em;
   display: flex;
   flex-direction: row;
-  height: 2em;
-  width: 20em;
+  justify-content: flex-start;
+  margin-left: 1.5em;
+
 }
 
 .Github {
   height: 2.5em;
-  margin-right: 35em;
+  padding-right: 0.5em;
 }
 
 .X {
   height: 2.5em;
-  margin-right: 35em;
+  padding-right: 0.5em;
 }
 
 .LinkdIn {
   height: 2.5em;
-  margin-right: 35em;
+}
+
+a {
+  color:#000;
+	text-decoration:none;
+}
+
+.chevron {
+  color: #0d6efd;
 }
 
 .liens-utiles {
   display: flex;
   flex-direction: column;
-  margin-left: 3em;
+  margin-left: 2em;
   text-align: left;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
 }
 
 .liens-realisations {
   display: flex;
   flex-direction: column;
-  margin-left: 3em;
+  margin-left: 2em;
   text-align: left;
+  padding-bottom: 1em;
 }
 
 
 .liens-articles {
   display: flex;
   flex-direction: column;
-  margin-left: 3em;
+  margin-left: 2em;
   text-align: left;
+  padding-bottom: 2.5em;
 }
