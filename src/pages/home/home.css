@@ -1,4 +1,6 @@
-/*Header */
+/*
+Header 
+*/
 
 nav {
   background-color: #1e1e1e;
@@ -8,8 +10,8 @@ nav {
 #brand {
   color : white;
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1.5em;
+  font-weight: 550;
+  font-size: 2em;
   margin-left: 0.5em;
 }
 
@@ -30,30 +32,47 @@ nav {
 
 .nav-link {
   color : #797373;
-  font-size: 1.1em;
+  font-size: 1.3em;
   display: flex;
   padding-left: 1em;
-  font-weight: 5500;
+  font-weight: 530;
   text-transform: uppercase;
 }
 
 
-
-@media (min-width: 992px) {
-  .titleNav {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
+/* Tablette */
 
 @media (min-width: 480px) {
-  .titleNav {
-    padding-left: 50px;
-    padding-right: 50px;
+  #brand {
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  nav {
+    width: 30em;
   }
 }
 
-/*Main */
+/*Desktop */
+@media (min-width: 992px) {
+  nav {
+    width: 63em;
+  }
+  #brand {
+    font-size: 1em;
+  }
+.me-auto {
+  margin-left: 17em;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+}
+
+/*
+/*Main 
+*/
+
 
 #Introduction {
   background-image: url(/src/assets/home/home-me-mobile.jpg);
@@ -66,8 +85,8 @@ nav {
 
 #Hello {
   color:white;
-  font-size:2.5em;
-  font-weight: 500;
+  font-size:3em;
+  font-weight: 600;
   display: flex;
   padding-top: 5em;
   padding-left: 1em;
@@ -77,14 +96,16 @@ nav {
 
 #Job {
   color: white;
-  font-size:1.2em;
+  font-size:1.4em;
   padding-left: 2.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 button {
   background-color: #0d6efd;
   color:white;
-  height: 2.3em;
+  height: 2em;
   font-size: 1em;
   font-weight: 300;
   text-align: center;
@@ -100,29 +121,27 @@ button {
   padding-bottom: 0.5em;
   border-radius: 1%;
   margin-top: 2rem;
-  font-size: 1.5em;
+  font-size: 2em;
   border-width: 2px;
   display: flex;
-  margin-left: 2em;
+  margin-left: 1em;
+  border-bottom: 0.1em solid #0d6efd;
 }
 
-.bord {
-  border: 1.2px solid #0d6efd;
-  width: 20em;
-  margin-left: 3em;
-  margin-bottom: 1em;
-}
 
 .text {
   text-align:start;
   width: 18em;
   margin-left: 2em;
+  padding-top: 1em;
+  line-height: 1.7em;
+  font-size: 1.2em;
 }
 
 #me {
   background-image: url(/src/assets/home/about-mobile.jpg);
   background-repeat: no-repeat;
-  height: 15em;
+  height: 12em;
   width: 22em;
   margin-left: 2em;
   border-radius: 7%;
@@ -130,17 +149,17 @@ button {
 }
 
 #myskills {
-  font-size: 1.5em;
-  font-weight: 50;
+  font-size: 2em;
+  font-weight: 550;
   display: flex;
-  margin-left: 2em;
-  padding-top: 1em;
+  margin-left: 1em;
+  padding-top: 0.5em;
 }
 
 #skills {
   width: 20em;
   margin-right: 2em;
-  margin-left: 4em;
+  margin-left: 2em;
 
 }
 
@@ -154,41 +173,69 @@ button {
 }
 
 /* Tablette */
-@media (min-width: 768px){
+@media (min-width: 480px){
   #Introduction {
     background-image: url(/src/assets/home/home-me-tablette.jpg);
     background-repeat: no-repeat;
-    background-size: 100vh;
-    height: 17em;
+    width: 30em;
+    height: 40em;
   }
   #Hello {
-    font-size: 2em;
+    font-size: 2.2em;
+    font-weight: 600;
     color:white;
-    padding-top: 3.5em;
+    padding-top: 6em;
+    padding-left: 1em;
+    width: 25em;
+    height: 8em;
+    
   }
   #Job {
-    font-size: 1em;
-  }
-  #about {
-    width: 10em;
-    padding-top: 2em;
-  }
-  .text {
-    width: 20em;
-    margin-left: 1em;
-  }
-  #presentation {
-    display:flex;
-  }
-  #mypresentation {
-    width: 20em;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-bottom: 0.5em;
   }
   #me {
-    margin-left: 2em;
-    margin-top: 2em;
-    width: 20em;
+    background-image: url(/src/assets/home/about.jpg);
+    width: 12em;
+    height: 10em;
+    margin-left: 0em;
+    
+  }
+  #skills {
+    width: 12em;
+    margin-left: 0.5em;
+  }
+  #myskills {
+    font-size: 1.2em;
+    margin-left:0em;
+  }
+  .bord {
+    width: 12em;
+  }
+  #about {
+    width: 5em;
+    display: flex;
+    height: 2em;
+    padding-top: 0em;
+  }
+  .text {
+    width: 11em;
+    padding-left: 0em;
+  }
+  #presentation {
+    display: flex;
+  }
+  .colonnes {
+    display: flex;
+    flex-direction: column;
+  }
+  #descr-skills {
+    width: 10em;
   }
 }
+
+
 
 /*Desktop*/
 @media (min-width: 992px) {
@@ -201,26 +248,52 @@ button {
     text-align: center;
     padding-top: 0;
     position:top;
+    width: 63em;
   }
- #hello {
-    font-size: 4em;
+ #Hello {
+    font-size: 2.5em;
     color :white;
-  
+    display: flex;
+    padding-left: 7em;
+  }
+  #Job {
+    font-size: 2em;
   }
   #about {
     align-items: stretch;
+    margin-top: 2em;
   }
   .text {
-    width: 22em;
+    width: 25em;
+    font-size: 1em;
   }
   #presentation {
     display:flex;
+    padding-bottom: 8em;
   }
   #me {
+    background-image: url(/src/assets/home/about-mobile.jpg) ;
     margin-left: 1em;
     margin-top: 3em;
-    width: 30em;
+    width: 25em;
+    height: 15em;
   }
+  #second {
+    margin-left: 5em;
+  
+  }
+  .descr-skills {
+    width: 40em;
+  }
+  #skills {
+    width: 25em;
+    height: 10em;
+  }
+  #myskills {
+    padding-left: 0.5em;
+    font-size: 1.5em;
+  }
+  
 }
 
 
@@ -324,4 +397,113 @@ a {
   margin-left: 2em;
   text-align: left;
   padding-bottom: 2.5em;
+}
+
+/* Tablette */
+@media (min-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .box {
+    display:flex;
+  }
+  .title-realisation {
+    margin-top: 5em;
+  }
+  
+  .copyright {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    background-color: #1e1e1e;
+  }
+  #brandfooter {
+    font-size: 1em;
+  }
+  .foot-addr {
+    font-size: 0.7em;
+    font-weight: 600;
+    margin-right: 0em;
+  }
+
+  .Github {
+    height: 1.2em;
+    padding-right: 0.5em;
+  }
+  
+  #footer-address {
+    margin-bottom: 0em;
+  }
+
+  .X {
+    height: 1.2em;
+    padding-right: 0.5em;
+  }
+  
+  .LinkdIn {
+    height: 1.2em;
+  }
+
+  #medias {
+    width: 2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+  }
+
+  a {
+    font-size: 0.7em;
+    font-weight: 500;
+  }
+
+  #mylastart {
+    padding-top: 0em;
+    margin-top: 0em;
+    font-size: 1em;
+  }
+  .footer-tablette-col {
+    width: 10em;
+  }
+}
+
+
+/*Desktop*/
+@media (min-width: 992px) {
+  .container {
+    display: flex;
+    margin-left: 0em;
+  }
+  .footer-desktop {
+    display: flex;
+    margin-right: 3em;
+  }
+  #brandfooter {
+    padding-bottom: 0.1em;
+    margin-top: 4.5em;
+  }
+  .liens-utiles {
+    margin-top: 3em;
+    margin-left: 3em;
+  }
+  #mylastart {
+    margin-top: 4.4em;
+  }
+  .title-realisation {
+    margin-top: 4.5em;
+  }
+  .copyright {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    background-color: #1e1e1e;
+    width: 75em;
+  }
 }

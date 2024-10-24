@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 const Blog = () => {
     return (
         <div className="Blog">
-          <div id="banner"> </div>
+          <div id="banner-blog"></div>
             <h2 id="title-blog"> BLOG</h2>
             <p id ="little-tittle-blog"> Retrouvez ici quelques articles sur le développement web.</p>
        

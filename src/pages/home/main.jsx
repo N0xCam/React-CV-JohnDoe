@@ -17,8 +17,9 @@ const Home = () => {
             <div id="presentation">
             <div className='colonnes'>
             <section id="presentation">
+                <div id='test'>
                 <h2 id="about"> À propos </h2>
-                <div className="bord"></div>
+              
                 <article className="mypresentation">
                 <p className='text'>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d' <strong>intégrateur-développeur web </strong>au CEF. Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>. </p>
 
@@ -27,7 +28,7 @@ const Home = () => {
                 <p className='text'>J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web.</p>
 
                 </article>
-
+                </div>
             </section>
             </div>
 
