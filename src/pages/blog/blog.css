@@ -1,22 +1,36 @@
-#banner-blog {
-    background-image: url(/src/assets/banner-mobile.jpg);
-    background-repeat: no-repeat;
-    height: 50em;
-    width: 26em;
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
 #title-blog {
     display:flex;
+    margin-top: 1em;
+    margin-top: 1em;
+    font-weight: 100;
+}
+
+.realisations {
+    width: 10em;
+    border: solid 1px #c4c9d1
 }
 
 /* Tablette */
 @media (min-width: 768px) {
     .realisations {
         display: flex;
-        flex-direction: row;
-        width: 20em;
+       
+        width: 18em;
+        border: 0.1em solid #c4c9d1;
+    }
+    .techno-blog {
+        border-top: 0.1em solid #000205;
+    }
+    #col-tablette1 {
+        display: flex;
+        flex-direction: column;
+    }
+    #col-tablette2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-blog {
+        width: 10em;
     }
 }
 
