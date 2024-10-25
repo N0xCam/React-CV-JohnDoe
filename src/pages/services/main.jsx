@@ -6,7 +6,7 @@ function Services() {
 
         <div id="banner"></div>
 
-        <h2> MON OFFRE DE SERVICES</h2>
+        <h2 id="title-services"> MON OFFRE DE SERVICES</h2>
         <h3 id="presta"> Voici les prestations sur lesquelles je peux intervenir.</h3>
 
         <div id="col">

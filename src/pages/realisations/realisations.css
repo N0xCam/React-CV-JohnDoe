@@ -1,28 +1,118 @@
-h2 {
+#title-realisations {
+    padding-top: 2em;
     font-size: 2em;
     margin-left: 2;
+    font-weight: 500;
+    padding-bottom: 0.5em;
 }
 
 #little-title-realisations {
     font-size: 1.5em;
+    font-weight: 500;
+    padding-bottom: 1em;
+    border-bottom: 0.3em solid #0d6efd;
 }
 
+#realisations {
+    padding-top: 3em;
+}
+
+.img-realisations {
+    width: 26em;
+}
+
+.card {
+ 
+    padding-bottom: 1em;
+    border-right-width: 0px;
+}
+
+.card-title-real {
+    font-size: 2em;
+    font-weight: 550;
+    padding-top: 0.5em;
+}
+
+.card-text {
+    font-size: 1.1em;
+}
+
+.card-body {
+    padding-bottom: 0em;
+}
+
+.techno {
+    padding-top: 0.5em;
+    margin-top: 1em;
+    border-top: 0.1em solid #c4c9d1;
+}
+
+.btn-real {
+    padding-bottom: 1em;
+    color:  #0d6efd;
+    background-color: beige;
+    width: 5em;
+    height: 2.5em;
+}
+
+
 /* Tablette */
-@media (min-width: 768px) {
+@media (min-width: 480px) {
+    #title-realisations {
+        font-size: 2.5em;
+        display: flex;
+        text-align: center;
+        margin-left: 3em;
+        padding-bottom: 0em;
+    }
+    #little-title-realisations {
+        font-size: 1.2em;
+    }
     #realisations {
-        width: 30em;
+        display: flex;
+    }
+    .card {
+        width: 15em;
         display: flex;
         padding-right: 2em;
+        margin-right: 1em;
     }
-
+    .img-realisations {
+        width: 15em;
+    }
+    #col2-tabl {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-title-real {
+        font-size: 1.3em;
+    }
+    .card-text {
+        font-size: 0.9em;
+    }
+    .techno {
+       font-size: 0.6em;
+   }
 }
 
 /*Desktop */
 @media (min-width: 991px) {
-    #realisations {
-        display: flex;
-        flex-direction: row;
-        width: 50em;
+    #title-realisations {
+        margin-left: 9em;
     }
-   
+   #realisations {
+    display: flex;
+    flex-direction: row;
+   }
+   #col2-tabl { 
+    display: flex;
+    flex-direction: row;
+   }
+   .card {
+    width: 20em;
+    border: 0.1em solid #c4c9d1;
+    }
+    .img-realisations {
+        width: 20em;
+    }
 }
