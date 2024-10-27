@@ -1,26 +1,72 @@
 #title-blog {
     display:flex;
+    margin-top: 10em;
     margin-top: 1em;
-    margin-top: 1em;
-    font-weight: 100;
+    font-weight: 500;
+    font-size: 2em;
+    margin-left: 5em;
+}
+
+#little-tittle-blog {
+    font-size: 1.4em;
+    width: 18em;
+    padding-left: 0.2em;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
 }
 
 .realisations {
     width: 10em;
+   
+    
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+.img-blog {
+    width: 26em;
+}
+
+.blog {
+    font-size: 2em;
+    font-weight: 500;
+    display: flex;
+    text-align: start;
+    width: 10em;
+}
+
+.text {
+    display: flex;
+    margin-left: 0em;
+}
+.techno-blog {
     border: solid 1px #c4c9d1
 }
 
+.btn-blog {
+    display: flex;
+    height: 2.5em;
+    width: 7em;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
 /* Tablette */
-@media (min-width: 768px) {
+@media (min-width: 480px) {
     .realisations {
         display: flex;
-       
-        width: 18em;
+        width: 15em;
         border: 0.1em solid #c4c9d1;
     }
     .techno-blog {
         border-top: 0.1em solid #000205;
     }
+    #tablette-blog {
+        display: flex;
+        flex-direction: row;
+    }
+
     #col-tablette1 {
         display: flex;
         flex-direction: column;
@@ -32,9 +78,18 @@
     .img-blog {
         width: 10em;
     }
+    .blog {
+        font-size: 1.5em;
+    }
 }
 
 /* Desktop */
 @media (min-width: 991px) {
-
+    .realisations {
+        border: 0.1em solid #c4c9d1;
+        width: 15em;
+    }
+    .card {
+        padding-right: 0em;
+    }
 }

@@ -1,8 +1,8 @@
 
-#contact {
-    border-width: 2vh;
-    border-style: solid;
-    border-color: blue;
+#mycontactpage{
+    background-image: url(/src//assets/fountain-pen-1854169_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #content {

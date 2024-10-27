@@ -22,7 +22,6 @@
 }
 
 .card {
- 
     padding-bottom: 1em;
     border-right-width: 0px;
 }
@@ -45,6 +44,7 @@
     padding-top: 0.5em;
     margin-top: 1em;
     border-top: 0.1em solid #c4c9d1;
+    width: 25em;
 }
 
 .btn-real {

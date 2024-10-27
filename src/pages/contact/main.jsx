@@ -3,6 +3,7 @@ import "./contact.css";
 function Main() {
     return (
         <div className="colonne">
+        <div id="mycontactpage">
         <div id="contact">
             <div id="content">
             <h2 id="title-contact"> Me contacter </h2>
@@ -77,6 +78,7 @@ function Main() {
             </div>
             </div>
             </div>
+        </div>
         </div>
     );
 }
