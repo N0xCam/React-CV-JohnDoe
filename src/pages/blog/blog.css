@@ -17,14 +17,14 @@
 
 .realisations {
     width: 10em;
-   
-    
+    border-top: solid 1px #c4c9d1;
     padding-top: 1.5em;
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
 }
 
 .img-blog {
-    width: 26em;
+    width: 24em;
+    margin-left: 0.5em;
 }
 
 .blog {
@@ -40,7 +40,7 @@
     margin-left: 0em;
 }
 .techno-blog {
-    border: solid 1px #c4c9d1
+    border-top: solid 1px #c4c9d1
 }
 
 .btn-blog {
@@ -62,25 +62,16 @@
     .techno-blog {
         border-top: 0.1em solid #000205;
     }
-    #tablette-blog {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #col-tablette1 {
-        display: flex;
-        flex-direction: column;
-    }
-    #col-tablette2 {
-        display: flex;
-        flex-direction: column;
-    }
     .img-blog {
         width: 10em;
     }
     .blog {
         font-size: 1.5em;
     }
+    .blog-tablette {
+        display: flex;
+    }
+   
 }
 
 /* Desktop */
@@ -88,8 +79,17 @@
     .realisations {
         border: 0.1em solid #c4c9d1;
         width: 15em;
+        height: 25em;
     }
     .card {
         padding-right: 0em;
     }
+    .blog-desktop {
+        display: flex;
+        
+       
+    }
+    .blog-tablette {
+      display: flex;
+    }    
 }

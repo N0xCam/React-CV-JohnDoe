@@ -8,10 +8,9 @@ const Blog = () => {
           <div id="banner"></div>
             <h2 id="title-blog"> BLOG</h2>
             <p id ="little-tittle-blog"> Retrouvez ici quelques articles sur le développement web.</p>
-       
-    <div id="col-tablette1">
+
+    <div className='blog-tablette'>
     <div className='realisations'>
-    <div id="tablette-blog">
     <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art1.png" className='img-blog' />
       <Card.Body>
@@ -27,7 +26,9 @@ const Blog = () => {
       </Card.Body>
     </Card>
     </div>
+    
 
+    
     <div className='realisations'>
     <Card style={{ width: '28rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art2.png" className='img-blog'/>
@@ -44,8 +45,9 @@ const Blog = () => {
       </Card.Body>
     </Card>
     </div>
+    </div>
 
-
+    <div className='blog-tablette'>
     <div className='realisations'>
     <Card style={{ width: '28rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art4.png" className='img-blog'/>
@@ -62,10 +64,8 @@ const Blog = () => {
       </Card.Body>
     </Card>
     </div>
-    </div>  
-
+  
     <div className='realisations'>
-    <div id="col-tablette2">
     <Card style={{ width: '28rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art5.png" className='img-blog'/>
       <Card.Body>
@@ -81,7 +81,10 @@ const Blog = () => {
       </Card.Body>
     </Card>
     </div>
+    </div>
 
+
+    <div className='blog-tablette'>
     <div className='realisations'>
     <Card style={{ width: '28rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art6.png" className='img-blog'/>
@@ -116,11 +119,8 @@ const Blog = () => {
     </Card>
     </div>
     </div>
-    </div>
-    </div>
-       
-       
-        
+    </div> 
+            
     );
 }
 

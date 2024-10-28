@@ -1,26 +1,31 @@
 
 #mycontactpage{
-    background-image: url(/src//assets/fountain-pen-1854169_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    border:solid 1em #0d6efd;
+    border-bottom: solid 3em #0d6efd;
+  }
+
 
 #content {
     background-color: white;
 }
 
 #title-contact {
-    font-size: 2em;
-    width: 5em;
+    font-size: 3em;
+    font-weight: 300;
+    width: 3em;
     text-transform: uppercase;
     margin-left: 6em;
+    padding-top: 1em;
+    display: flex;
 }
 
 #little-title-contact {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 200;
     margin-left: 5em;
     margin-right: 5em;
+    margin-top: 1em;
+    width: 13.6em;
 }
 
 p {
@@ -29,21 +34,27 @@ p {
 
 #title-form {
     width: 7em;
-    font-size: 2em;
+    font-size: 1.5em;
     display: flex;
-    margin-left: 2em;
+    text-align: start;
+  
+    margin-top: 1em;
 }
 
 #myform {
     display: flex;
     flex-direction: column;
-
+    margin-left: 2em;
 }
 
 #btn {
-    background-color: blue;
+    background-color: #0d6efd;
     color: white;
-    width: 20vh;
+    width: 5em;
+    display: flex;
+    text-align: center;
+    margin-left: 10em;
+    margin-bottom: 2em;
 }
 #form {
     font-size: 4vh;
@@ -62,20 +73,64 @@ em {
     display:flex;
 }
 
-h3 title-form {
-    border-bottom: 4px solid #0d6efd;
+#title-contact {
+    font-size: 1.2em;
+    font-weight: 550;
+    display: flex;
+    text-align: start;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+#contact-address {
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.text-address {
+    padding-top: 0.2em;
+
+}
+
+iframe {
+    margin-left: 2em;
+    margin-bottom: 2em;
 }
 
 /* Tablette */
-@media (min-width: 768px) {
+@media (min-width: 480px) {
+    #title-contact {
+        width: 19em;
+    }
     .colonne {
         display: flex;
         flex-direction: row;
+        width: 5em;
+    }
+    #tablette {
+        display: flex;
+        flex-direction: row;
+    }
+    #myform {
+        width: 10em;
     }
 }
 
 
 /*Desktop */
 @media (min-width: 991px) {
-
+    #title-contact {
+        width: 46em;
+        display: flex;
+    }
+    #mycontact {
+        display: flex;
+        flex-direction: column;
+        width: 20em;
+    }
+    #tablette{
+        display: flex;
+        flex-direction: row;
+        width: 50em;
+    }
 }
