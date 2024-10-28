@@ -4,19 +4,24 @@
     border-bottom: solid 3em #0d6efd;
   }
 
+#tab {
+    margin-left: 3.4em;
+}
 
 #content {
     background-color: white;
 }
 
-#title-contact {
-    font-size: 3em;
-    font-weight: 300;
-    width: 3em;
-    text-transform: uppercase;
-    margin-left: 6em;
-    padding-top: 1em;
-    display: flex;
+#tit-contact {
+  font-size: 2em;
+  font-weight: 500;
+  display: flex;
+  margin-left: 3em;
+  margin-bottom: 2em;
+  padding-top: 1em;
+  width: 5em;
+  height: 2em;
+  text-transform: uppercase;
 }
 
 #little-title-contact {
@@ -24,12 +29,7 @@
     font-weight: 200;
     margin-left: 5em;
     margin-right: 5em;
-    margin-top: 1em;
     width: 13.6em;
-}
-
-p {
-    font-size: 2vh;
 }
 
 #title-form {
@@ -37,28 +37,26 @@ p {
     font-size: 1.5em;
     display: flex;
     text-align: start;
-  
     margin-top: 1em;
 }
 
 #myform {
     display: flex;
     flex-direction: column;
-    margin-left: 2em;
+    margin-left: 4em;
 }
 
 #btn {
     background-color: #0d6efd;
     color: white;
-    width: 5em;
+    width: 5.5em;
+    height: 2.2em;
     display: flex;
     text-align: center;
-    margin-left: 10em;
+    margin-left: 5em;
     margin-bottom: 2em;
 }
-#form {
-    font-size: 4vh;
-}
+
 
 em {
     display: flex;
@@ -74,16 +72,17 @@ em {
 }
 
 #title-contact {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 550;
     display: flex;
     text-align: start;
-    margin-left: 2em;
+    margin-left: 1em;
     margin-bottom: 2em;
+    width: 4em;
 }
 
 #contact-address {
-    margin-left: 2em;
+    margin-left: 1em;
     margin-bottom: 2em;
 }
 
@@ -93,44 +92,105 @@ em {
 }
 
 iframe {
-    margin-left: 2em;
+    margin-left: 1em;
     margin-bottom: 2em;
+    width: 15em;
+    display: flex;
 }
 
 /* Tablette */
 @media (min-width: 480px) {
     #title-contact {
         width: 19em;
-    }
-    .colonne {
         display: flex;
-        flex-direction: row;
-        width: 5em;
+        font-size: 1em;
     }
-    #tablette {
+
+    #tit-contact {
+        width: 9em;
+        margin-bottom: 0.5em;
+    }
+
+    #little-title-contact {
+        width: 25em;
+        font-size: 0.8em;
+    }
+    .tablette {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
-    #myform {
+    #my-form {
+        width: 8em;
+        margin-left: 0em;
+    }
+    iframe {
         width: 10em;
+        margin-left: 0em;
+    }
+    #tab {
+        display: flex;
+    }
+    #my-contact {
+        display: flex;
+        flex-direction: column;
+        width: 10em;
+        margin-left: 2em;
+    }
+    #title-form {
+        font-size: 1em;
+    }
+    .text-address {
+        width: 15em;
+        font-size: 0.8em;
+    }
+    iframe {
+        width: 13em;
+        height: 10em;
     }
 }
 
 
 /*Desktop */
 @media (min-width: 991px) {
-    #title-contact {
-        width: 46em;
+    #tit-contact {
+        width: 15em;
         display: flex;
+        margin-left: 12em;
     }
-    #mycontact {
+    #little-title-contact {
+        width: 50em;
+        font-size: 1em;
+    }
+    .tablette {
         display: flex;
         flex-direction: column;
+    }
+    #my-form {
         width: 20em;
     }
-    #tablette{
+    iframe {
+        width: 30em;
+        height: 15em;
+        margin-left: 1em;
+    }
+    #tab {
         display: flex;
-        flex-direction: row;
-        width: 50em;
+    }
+    #my-contact {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6em;
+    }
+    #title-form {
+        font-size: 1.5em;
+        width: 20em;
+    }
+    #title-contact {
+        font-size: 1.5em;
+        padding-top: 1em;
+        margin-bottom: 0.3em;
+    }
+    .text-address {
+        padding-top: 0em;
     }
 }

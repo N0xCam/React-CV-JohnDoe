@@ -3,15 +3,16 @@ import "./contact.css";
 function Main() {
     return (
         
-        <div className="colonne">
+        <div id="box">
         <div id="mycontactpage">
         <div id="contact">
             <div id="content">
-            <h2 id="title-contact"> Me contacter </h2>
+            <h2 id="tit-contact"> Me contacter </h2>
             <p id="little-title-contact"> Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
 
-           <div id="tablette">
-            <div id="myform">
+            <div id="tab">
+            <div className="tablette">
+            <div id="my-form">
             <h3 id="title-form"> Formulaire de contact</h3>
             <form>
             <div className="mb-3">
@@ -64,9 +65,10 @@ function Main() {
             </form>
             </div>
             </div>
+            
 
-            <div className="colonne">
-            <div id="mycontact">
+            <div className="tablette">
+            <div id="my-contact">
             <h3 id="title-contact"> Mes coordonnées </h3>
             
             <address id="contact-address">
@@ -86,9 +88,10 @@ function Main() {
             </div>
             </div>
             </div>
-        </div>
-        </div>
-        </div>
+            </div> 
+            </div>
+            </div> 
+            </div>    
     );
 }
 
