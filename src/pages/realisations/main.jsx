@@ -14,18 +14,19 @@ const Realisations = () => {
         </div>
 
       <div id="realisations">
+      <div id="col2-tabl">
       <div className='card'>
       <Card>
-      <Card.Img variant="top" src="/src/assets/realisations/fresh-food.png" className='realisations'/>
+      <Card.Img variant="top" src="/src/assets/realisations/fresh-food.png" className='img-realisations'/>
       <Card.Body>
-        <Card.Title className='card.title'>Fresh Food</Card.Title>
+        <Card.Title className='card-title-real'>Fresh Food</Card.Title>
         <Card.Text>
-        <div className="card.text">
+        <div className="card-text">
           Réalisation d'un site avec commande en ligne.
         </div>
         </Card.Text>
-        <Button variant="primary" className='btn'>Voir</Button>
-        <Card.Text>
+        <Button className='btn-real'>Voir</Button>
+        <Card.Text className='techno'>
           Site réalisé avec PHP et MySQL
         </Card.Text>
       </Card.Body>
@@ -34,39 +35,42 @@ const Realisations = () => {
 
     <div className='card'>
     <Card>
-      <Card.Img variant="top" src="/src/assets/realisations/restaurant-akira.png" className='realisations' />
+      <Card.Img variant="top" src="/src/assets/realisations/restaurant-akira.png" className='img-realisations' />
       <Card.Body>
-        <Card.Title className='card.title'>Restaurant Akira</Card.Title>
+        <Card.Title className='card-title-real'>Restaurant Akira</Card.Title>
         <Card.Text>
-        <div className="card.text">
+        <div className="card-text">
          Réalisation d'un site vitrine.
          </div>
         </Card.Text>
-        <Button variant="primary">Voir</Button>
-        <Card.Text>
+        <Button className='btn-real'>Voir</Button>
+        <Card.Text className='techno'>
          Site réalisé avec WordPress
         </Card.Text>
       </Card.Body>
     </Card>
     </div>
+    </div>
  
 
     <div className='card'>
+    <div id="col2-tabl">
     <Card>
-      <Card.Img variant="top" src="/src/assets/realisations/bien-etre.png" />
+      <Card.Img variant="top" src="/src/assets/realisations/bien-etre.png" className='img-realisations' />
       <Card.Body>
-        <Card.Title className='Card.title'>Espace bien-être</Card.Title>
+        <Card.Title className='card-title-real'>Espace bien-être</Card.Title>
         <Card.Text>
-          <div className="card.text">
+          <div className="card-text">
           Réalisation d'un site vitrine pour un patricien de bien-être.
           </div>
         </Card.Text>
-        <Button variant="primary">Voir</Button>
-        <Card.Text>
+        <Button className='btn-real'>Voir</Button>
+        <Card.Text className='techno'>
           Site réalisé en HTML/CSS
         </Card.Text>
       </Card.Body>
     </Card>
+    </div>
     </div>
     </div>
     </div>

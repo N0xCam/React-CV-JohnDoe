@@ -2,13 +2,17 @@ import "./contact.css";
 
 function Main() {
     return (
-        <div className="colonne">
+        
+        <div id="box">
+        <div id="mycontactpage">
         <div id="contact">
             <div id="content">
-            <h2 id="title-contact"> Me contacter </h2>
+            <h2 id="tit-contact"> Me contacter </h2>
             <p id="little-title-contact"> Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
 
-            <div id="myform">
+            <div id="tab">
+            <div className="tablette">
+            <div id="my-form">
             <h3 id="title-form"> Formulaire de contact</h3>
             <form>
             <div className="mb-3">
@@ -19,7 +23,7 @@ function Main() {
                   placeholder="Votre nom"
                   required={true}
                 />
-              </div>
+            </div>
               <div className="mb-3">
                 <input
                   type="email"
@@ -61,14 +65,21 @@ function Main() {
             </form>
             </div>
             </div>
-
-            <div className="colonne">
-            <div id="mycontact">
-            <h3> Mes coordonnées </h3>
             
-            <address>
-                <em> 40 Rue Laure Diebold, 69009 Lyon, France</em>
-                <em> 06 20 30 40 50</em>
+
+            <div className="tablette">
+            <div id="my-contact">
+            <h3 id="title-contact"> Mes coordonnées </h3>
+            
+            <address id="contact-address">
+                <em className="text-address"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                </svg> 40 Rue Laure Diebold, 69009 </em>
+                <em className="text-address"> Lyon, France</em>
+                <em className="text-address"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                </svg> 06 20 30 40 50</em>
             </address>
             
             <iframe
@@ -77,7 +88,10 @@ function Main() {
             </div>
             </div>
             </div>
-        </div>
+            </div> 
+            </div>
+            </div> 
+            </div>    
     );
 }
 

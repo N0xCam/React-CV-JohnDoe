@@ -2,56 +2,86 @@
     background-image: url(/src/assets/banner-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 10em;
+    height: 6em;
+    width: 26em;
 }
 
-h2 {
+#title-services {
     font-weight: 400;
-    margin-right: 3em;
-    margin-top: 1em;
+    font-size: 1.7em;
+    margin-left: 2.5em;
+    padding-top: 1em;
+    display: flex;
+    width: 10em;
+
 }
 
 #presta {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 500;
+    padding-bottom: 1em;
     border-bottom: 7px solid #0d6efd;
     border-width: 0.2em;
+    width: 28em;
+    padding-right: 5em;
 }
 
 .services {
     margin-top: 7em;
     width: 20em;
-    margin-left: 6em;
+    margin-left: 2.3em;
+}
+
+.services:hover {
+    color:#cde1f8 
 }
 
 h4 {
     margin-top: 1em;
     margin-bottom: 1em;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 600;
+    text-transform: uppercase;
+}
+
+#col {
+    padding-right: 2em;
+}
+
+.text-service {
+    font-size: 1em;
 }
 
 /* Tablette */
-@media (min-width: 768px) {
+@media (min-width: 480px) {
     #banner {
         background-image: url(/src/assets/banner-tablette.jpg);
-        
+        width: 30em;
     }
     h2 {
         margin-right: 2em;
     }
     #presta {
-        font-size: 1em;
-        margin-left: 3.5em;
+        font-size: 0.9em;
+        width: 30em;
+        margin-left: 4em;
+        margin-right: 0.5em;
     }
     #col {
         display: flex;
         align-self: flex-start;
-        width: 25em;
-        padding-right: 0em;
+        width: 20em;
+        padding-right: 0.5em;
+        padding-left: 0.5em;
+        font-size: 0.7em;
+    }
+    #title-services {
+        width: 20em;
     }
     .services {
-        width: 17em;
+        width: 20em;
+        font-size: 1em;
+        padding-left: 0em;
     }
     .text-service {
         font-size: 1em;
@@ -65,25 +95,42 @@ h4 {
         background-image: url(/src/assets/banner-tablette.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        width: 63em;
     }
-    h2 {
+    #title-services {
         margin-right: 2em;
+        margin-left: 10em;
+        font-size: 2em;
+        font-weight: 530;
+    }
+    .img-article {
+        width: 6em;
     }
     #presta {
         font-size: 1em;
-        margin-left: 3.5em;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 18em;
     }
     #col {
         display: flex;
         align-self: flex-start;
         width: 25em;
-        padding-right: 0em;
+        padding-left: 15em;
+       
     }
     .services {
         width: 17em;
+        padding-left: 2em;
     }
     .text-service {
-        font-size: 1em;
-        width: 10em;
-    }   
+        font-size: 1.5em;
+        width: 12em;
+        margin-right: 2em;
+        padding-right: 2em;
+    } 
+    
+    h4 {
+        font-size: 2em;
+    }
 }
