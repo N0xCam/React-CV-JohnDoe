@@ -7,6 +7,6 @@ Mon site est hébergé par Codesandbox.io : https://codesandbox.io/p/github/N0xC
 Pour ouvrir correctement les documents, nous devrez procéder à un : NPM INSTALL puis NPM RUN DEV au sein de votre environnement de développement.
 
 Validator W3C :
-https://github.com/N0xCam/React-CV-JohnDoe/issues/4
+[https://github.com/N0xCam/React-CV-JohnDoe/issues/4](https://github.com/N0xCam/React-CV-JohnDoe/issues/8)
 
 REACT + VITE
