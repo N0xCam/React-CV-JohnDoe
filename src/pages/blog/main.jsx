@@ -64,7 +64,7 @@ const Blog = () => {
       </Card.Body>
     </Card>
     </div>
-  
+
     <div className='realisations'>
     <Card style={{ width: '28rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art5.png" className='img-blog'/>
@@ -120,7 +120,6 @@ const Blog = () => {
     </div>
     </div>
     </div> 
-            
     );
 }
 

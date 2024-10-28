@@ -8,11 +8,15 @@ nav {
 }
 
 #brand {
-  color : white;
   text-transform: uppercase;
   font-weight: 550;
   font-size: 1em;
+  color: white;
   margin-left: 0.5em;
+}
+
+.nav-link {
+  color:white;
 }
 
 .navbar-toggler {
@@ -20,10 +24,10 @@ nav {
   align-items: center;
   justify-content: center;
   padding-left: 2em;
-  width: 0.2em;
-  height: 2rem;
+  width: 0.1em;
+  height: 1.5em;
   border-color: beige;
-  border-width: 0.5em;
+  border-width: 0.1em;
 }
 
 .nav-link:hover {
@@ -126,6 +130,7 @@ button {
   display: flex;
   margin-left: 1em;
   border-bottom: 0.1em solid #0d6efd;
+  width: 8em;
 }
 
 
@@ -134,7 +139,7 @@ button {
   flex-direction: column;
   text-align:start;
   width: 18em;
-  margin-left: 2.5em;
+  margin-left: 3em;
   padding-top: 1em;
   line-height: 1.7em;
   font-size: 1.2em;
@@ -216,7 +221,7 @@ button {
     width: 12em;
   }
   #about {
-    width: 5em;
+    width: 10em;
     display: flex;
     height: 2em;
     padding-top: 0em;
@@ -270,12 +275,15 @@ button {
     margin-top: 2em;
   }
   .text {
-    width: 25em;
-    font-size: 1em;
+    width: 50em;
+    font-size: 1.5em;
   }
   #presentation {
     display:flex;
     padding-bottom: 8em;
+  }
+  #test {
+    width: 30em;
   }
   #me {
     background-image: url(/src/assets/home/about-mobile.jpg) ;

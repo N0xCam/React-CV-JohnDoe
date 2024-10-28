@@ -1,7 +1,6 @@
 #title-realisations {
     padding-top: 2em;
     font-size: 2em;
-    margin-left: 2;
     font-weight: 500;
     padding-bottom: 0.5em;
 }
@@ -11,6 +10,8 @@
     font-weight: 500;
     padding-bottom: 1em;
     border-bottom: 0.3em solid #0d6efd;
+    width: 10em;
+    margin-left: 4em;
 }
 
 #realisations {
@@ -67,6 +68,7 @@
     }
     #little-title-realisations {
         font-size: 1.2em;
+        margin-left: 7em;
     }
     #realisations {
         display: flex;

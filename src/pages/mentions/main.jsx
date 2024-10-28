@@ -1,8 +1,13 @@
 import "./mentions.css"
 
+
 function Mentions() {
     return (
-        <div id="mentions">
+      <div id="mentions">
+      <head>
+        <meta name="robots" content="noindex, nofollow"/>
+      </head>
+
 
       <h2 className="title-legal">Mentions légales</h2>
 

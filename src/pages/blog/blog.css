@@ -9,10 +9,11 @@
 
 #little-tittle-blog {
     font-size: 1.4em;
-    width: 18em;
-    padding-left: 0.2em;
+    width: 15em;
+    margin-left: 3em;
     padding-bottom: 1em;
     padding-top: 0.5em;
+    border-bottom: 0.3em solid #0d6efd;
 }
 
 .realisations {
@@ -38,6 +39,7 @@
 .text {
     display: flex;
     margin-left: 0em;
+    width: 10em;
 }
 .techno-blog {
     border-top: solid 1px #c4c9d1
@@ -68,28 +70,43 @@
     .blog {
         font-size: 1.5em;
     }
-    .blog-tablette {
-        display: flex;
-    }
-   
+   .blog-tablette {
+    display: flex;
+   }
 }
 
 /* Desktop */
 @media (min-width: 991px) {
+    #title-blog {
+        font-size: 2em;
+        margin-left: 13.5em;
+    }
+    #little-tittle-blog {
+        font-size: 1.5em;
+        width: 30em;
+        margin-left: 5em;
+    }
     .realisations {
         border: 0.1em solid #c4c9d1;
-        width: 15em;
-        height: 25em;
+        width: 25em;
+        height: 40em;
+    }
+    .Card.Text {
+        font-size: 1em;
     }
     .card {
         padding-right: 0em;
     }
     .blog-desktop {
         display: flex;
-        
-       
+        flex-direction: column;
+        column-count: 3;
     }
     .blog-tablette {
       display: flex;
-    }    
+      flex-direction: row;
+    }   
+    .img-blog {
+        width: 20em;
+    }
 }
