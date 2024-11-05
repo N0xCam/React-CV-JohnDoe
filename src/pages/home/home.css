@@ -10,13 +10,17 @@ nav {
 #brand {
   text-transform: uppercase;
   font-weight: 550;
-  font-size: 1em;
+  font-size: 1.5em;
   color: white;
-  margin-left: 0.5em;
+  margin-left: 0.1em;
+  padding-left: 0em;
 }
 
 .nav-link {
-  color:white;
+  color:rgb(150, 142, 142);
+  padding-bottom: 0.5em;
+  padding-left: 0.2em;
+  font-size: 1.5em;
 }
 
 .navbar-toggler {
@@ -24,6 +28,7 @@ nav {
   align-items: center;
   justify-content: center;
   padding-left: 2em;
+  padding-bottom: 1em;
   width: 0.1em;
   height: 1.5em;
   border-color: beige;
@@ -35,11 +40,10 @@ nav {
 }
 
 .nav-link {
-  color : #797373;
   font-size: 1em;
   display: flex;
-  padding-left: 1em;
-  font-weight: 530;
+  padding-left: 0.2em;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -51,9 +55,34 @@ nav {
     padding-right: 2em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    padding-left: 0em;
   }
   nav {
-    width: 30em;
+    width: 50em;
+    height: 4.2em;
+  }
+
+  .navbar-toggler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    width: 0.1em;
+    height: 1.5em;
+    border-color: beige;
+    border-width: 0.1em;
+  }
+  #basic-navbar-nav {
+    width: 20em;
+  }
+  .me-auto{
+    background-color: #1e1e1e;
+    width: 46.5em;
+    display: flex;
+  }
+  .container {
+    padding-left: 0em;
   }
 }
 
@@ -61,12 +90,14 @@ nav {
 @media (min-width: 992px) {
   nav {
     width: 63em;
+    height: 3em;
   }
   #brand {
     font-size: 1em;
+    margin-left: 2em;
   }
 .me-auto {
-  margin-left: 17em;
+  margin-left: 25em;
   font-size: 0.8em;
   font-weight: 600;
 }
@@ -77,6 +108,10 @@ nav {
 /*Main 
 */
 
+#myhome {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.15);
+  padding-bottom: 2em;
+}
 
 #Introduction {
   background-image: url(/src/assets/home/home-me-mobile.jpg);
@@ -90,10 +125,10 @@ nav {
 #Hello {
   color:white;
   font-size:3em;
-  font-weight: 600;
+  font-weight: 500;
   display: flex;
-  padding-top: 5em;
-  padding-left: 1em;
+  padding-top: 4em;
+  padding-left: 0.7em;
   width: 8em;
   margin-top: 0px;
 }
@@ -101,23 +136,20 @@ nav {
 #Job {
   color: white;
   font-size:1.4em;
-  padding-left: 2.5em;
-  padding-top: 1em;
+  padding-left: 0.7em;
+  padding-top: 0.9em;
   padding-bottom: 1em;
 }
 
 button {
   background-color: #0d6efd;
   color:white;
-  height: 2em;
-  font-size: 1em;
-  font-weight: 300;
-  text-align: center;
 }
 
 #presentation {
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.15);
   padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 #about {
@@ -125,54 +157,54 @@ button {
   padding-bottom: 0.5em;
   border-radius: 1%;
   margin-top: 2rem;
-  font-size: 2em;
+  font-size: 1.7em;
   border-width: 2px;
   display: flex;
-  margin-left: 1em;
+  margin-left: 1.4em;
   border-bottom: 0.1em solid #0d6efd;
-  width: 8em;
+  width: 11em;
 }
 
 
 .text {
   display: flex;
   flex-direction: column;
-  text-align:start;
-  width: 18em;
-  margin-left: 3em;
-  padding-top: 1em;
-  line-height: 1.7em;
+  text-align: start;
+  padding-left: 2em;
+  padding-right: 4em;
+  padding-top: 0.5em;
   font-size: 1.2em;
 }
 
 #me {
   background-image: url(/src/assets/home/about-mobile.jpg);
   background-repeat: no-repeat;
-  height: 12em;
-  width: 22em;
-  margin-left: 2em;
+  background-size: cover;
+  height: 10em;
+  width: 19em;
+  margin-left: 2.5em;
   border-radius: 7%;
-  
+  display: flex;  
 }
 
 #myskills {
-  font-size: 2em;
-  font-weight: 550;
+  font-size: 1.3em;
+  font-weight: 520;
   display: flex;
-  margin-left: 1em;
+  margin-left: 2em;
   padding-top: 0.5em;
 }
 
 #skills {
   width: 20em;
   margin-right: 2em;
-  margin-left: 2em;
+  margin-left: 2.7em;
 
 }
 
 .descr-skills {
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 0.9em;
   font-weight: 500;
   display: flex;
   padding-bottom: 0.5em;
@@ -180,80 +212,99 @@ button {
 }
 
 /* Tablette */
-@media (min-width: 480px){
+@media (min-width: 768px){
   #Introduction {
     background-image: url(/src/assets/home/home-me-tablette.jpg);
     background-repeat: no-repeat;
-    width: 30em;
-    height: 40em;
+    background-size: cover;
+    width: 50em;
+    height: 50em;
   }
   #Hello {
-    font-size: 2.2em;
-    font-weight: 600;
-    color:white;
-    padding-top: 6em;
-    padding-left: 1em;
-    width: 25em;
-    height: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4em;
+    justify-content: center;
+    padding-top: 5em;
+    padding-left: 0.5em;
+    margin-left: 1em;
+    width: 10em;
     
   }
   #Job {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 500;
     padding-bottom: 0.5em;
+    padding-top: 0.2em;
   }
   #me {
     background-image: url(/src/assets/home/about.jpg);
-    width: 12em;
+    width: 17em;
     height: 10em;
+    background-size:cover;
     margin-left: 0em;
-    
+    margin-top: 2.5em;
+
+  }
+  button {
+    width: 10em;
+    height: 3em;
+    font-size: 1.5em;
   }
   #skills {
     width: 12em;
     margin-left: 0.5em;
   }
   #myskills {
-    font-size: 1.2em;
-    margin-left:0em;
+    font-size: 1.3em;
+    margin-left:0.3em;
   }
   .bord {
     width: 12em;
   }
   #about {
-    width: 10em;
+    width: 13em;
     display: flex;
     height: 2em;
     padding-top: 0em;
+    margin-right: 5em;
   }
   .text {
-    width: 11em;
-    padding-left: 1em;
+    width: 22em;
+    padding-left: 2em;
     display: flex;
-    flex-direction: column;
     text-align: start;
-
+    padding-right: 0em;
   }
-  #presentation {
+  #aboutme {
     display: flex;
+    flex-direction: row;
   }
   .colonnes {
     display: flex;
     flex-direction: column;
+  }
+  .mypresentation {
+    width: 20em;
+  }
+  #presentation {
+    width: 28em;
+  }
+  #skills {
+    width: 17em;
   }
   #descr-skills {
     width: 10em;
   }
 }
 
-
-
 /*Desktop*/
 @media (min-width: 992px) {
   #Introduction {
     background-image: url(/src/assets/home/home-me-desktop.jpg);
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 65em;
     background-size: cover;
     color:white;
     text-align: center;
@@ -262,21 +313,26 @@ button {
     width: 63em;
   }
  #Hello {
-    font-size: 2.5em;
+    font-size: 4em;
+    width: 15em;
     color :white;
     display: flex;
-    padding-left: 7em;
+    padding-left: 0em;
+    padding-right: 1em;
   }
   #Job {
+    padding-top: 0.5em;
     font-size: 2em;
   }
   #about {
     align-items: stretch;
     margin-top: 2em;
+    width: 17em;
   }
   .text {
-    width: 50em;
-    font-size: 1.5em;
+    width: 27em;
+    font-size: 1.2em;
+    padding-top: 0.1em;
   }
   #presentation {
     display:flex;
@@ -298,14 +354,20 @@ button {
   }
   .descr-skills {
     width: 40em;
+    padding-left: 1em;
   }
   #skills {
     width: 25em;
     height: 10em;
+    padding-left: 1em;
   }
   #myskills {
     padding-left: 0.5em;
     font-size: 1.5em;
+    padding-left: 1em;
+  }
+  #me {
+    padding-right: 2em;
   }
   
 }
@@ -323,31 +385,35 @@ button {
 }
 
 #brandfooter {
+  padding-top: 4em;
   margin-top: 5em;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 600;
   display: flex;
   padding-left: 1em;
 }
 
 .copyright {
-  font-weight: bold;
+  font-weight: 500;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 20px;
   text-align: center;
   color: white;
   background-color: #1e1e1e;
+  width: 22em;
 }
 
 #footer-address {
-  font-size: 1em;
-  font-weight: 520;
+  font-size: 0.8em;
+  font-weight: 500;
   display: flex;
   flex-direction: column;
-  padding-left: 1.5em;
-  font-style: none;
-  color : #797373;
+  text-align: start;
+  text-decoration: ;
+  margin-left: 1.2em;
+  font-style:oblique;
+  color : #1e1e1e;
 }
 
 em {
@@ -365,17 +431,17 @@ em {
 }
 
 .Github {
-  height: 2.5em;
-  padding-right: 0.5em;
+  height: 1.5em;
+  padding-right: 1.5em;
 }
 
 .X {
-  height: 2.5em;
-  padding-right: 0.5em;
+  height: 1.5em;
+  padding-right: 1.5em;
 }
 
 .LinkdIn {
-  height: 2.5em;
+  height: 1.5em;
 }
 
 a {
@@ -385,6 +451,7 @@ a {
 
 .chevron {
   color: #0d6efd;
+  
 }
 
 .liens-utiles {
@@ -394,6 +461,7 @@ a {
   text-align: left;
   padding-top: 1.5em;
   padding-bottom: 1em;
+  font-size: 0.8em;
 }
 
 .liens-realisations {
@@ -402,6 +470,7 @@ a {
   margin-left: 2em;
   text-align: left;
   padding-bottom: 1em;
+  font-size: 0.8em;
 }
 
 
@@ -411,10 +480,11 @@ a {
   margin-left: 2em;
   text-align: left;
   padding-bottom: 2.5em;
+  font-size: 0.8em;
 }
 
 /* Tablette */
-@media (min-width: 480px) {
+@media (min-width: 768px) {
   .container {
     display: flex;
     flex-direction: row;
@@ -426,7 +496,9 @@ a {
     margin-top: 5em;
     margin-left: 0em;
   }
-  
+  .footer-desktop {
+    width: 20em;
+  }
   .copyright {
     font-size: 0.8rem;
     font-weight: bold;
@@ -436,18 +508,19 @@ a {
     text-align: center;
     color: white;
     background-color: #1e1e1e;
+    width: 52em;
   }
   #brandfooter {
     font-size: 1em;
   }
   .foot-addr {
-    font-size: 0.7em;
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: 500;
     margin-right: 0em;
   }
 
   .Github {
-    height: 1.2em;
+    height: 2em;
     padding-right: 0.5em;
   }
   
@@ -456,12 +529,12 @@ a {
   }
 
   .X {
-    height: 1.2em;
+    height: 2em;
     padding-right: 0.5em;
   }
   
   .LinkdIn {
-    height: 1.2em;
+    height: 2em;
   }
 
   #medias {
@@ -475,13 +548,27 @@ a {
     font-weight: 500;
   }
 
+  .liens-utiles {
+    font-size: 1em;
+  }
+  .liens-realisations {
+    font-size: 1em;
+  }
+
+.liens-articles {
+  font-size: 1em;
+}
+
   #mylastart {
     padding-top: 0em;
     margin-top: 0em;
     font-size: 1em;
   }
   .footer-tablette-col {
-    width: 10em;
+    width: 20em;
+  }
+  .title-realisation {
+    padding-top: 3.5em;
   }
 }
 
@@ -498,17 +585,26 @@ a {
   }
   #brandfooter {
     padding-bottom: 0.1em;
-    margin-top: 4.5em;
+    margin-top: 2.5em;
   }
   .liens-utiles {
-    margin-top: 3em;
+    margin-top: 4.5em;
     margin-left: 3em;
+    width: 15em;
+  }
+  .liens-articles {
+    width: 15em;
+  }
+  .liens-realisations {
+    width: 15em;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
   }
   #mylastart {
-    margin-top: 4.4em;
+    margin-top: 6em;
   }
   .title-realisation {
-    margin-top: 4.5em;
+    margin-top: 1.5em;
   }
   .copyright {
     font-size: 0.8rem;

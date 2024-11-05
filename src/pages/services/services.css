@@ -1,9 +1,5 @@
-#banner {
-    background-image: url(/src/assets/banner-mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 6em;
-    width: 26em;
+#ban {
+    width: 20em;
 }
 
 #title-services {
