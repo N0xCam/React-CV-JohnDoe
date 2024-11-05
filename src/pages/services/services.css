@@ -1,12 +1,15 @@
-#ban {
-    width: 20em;
+.ban-services {
+    background-image: url(/src/assets/banner-mobile.jpg);
+    width: 26em;
+    height: 7em;
+    background-size: cover;
 }
 
 #title-services {
     font-weight: 400;
     font-size: 1.7em;
-    margin-left: 2.5em;
-    padding-top: 1em;
+    margin-left: 3em;
+    padding-top: 2em;
     display: flex;
     width: 10em;
 
@@ -15,17 +18,24 @@
 #presta {
     font-size: 1.2em;
     font-weight: 500;
-    padding-bottom: 1em;
-    border-bottom: 7px solid #0d6efd;
+    padding-bottom: 0.5em;
     border-width: 0.2em;
-    width: 28em;
+    width: 25em;
     padding-right: 5em;
+    padding-left: 2em;
+}
+
+#border {
+    border-bottom: 5px solid #0d6efd;
+    width: 6em;
+    margin-left: 10em;
 }
 
 .services {
     margin-top: 7em;
-    width: 20em;
-    margin-left: 2.3em;
+    width: 17em;
+    margin-left: 5.5em;
+    font-size: 0.9em;
 }
 
 .services:hover {
@@ -34,9 +44,9 @@
 
 h4 {
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     font-size: 1.3em;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
 }
 
@@ -49,84 +59,96 @@ h4 {
 }
 
 /* Tablette */
-@media (min-width: 480px) {
-    #banner {
+@media (min-width: 768px) {
+    .ban-services {
         background-image: url(/src/assets/banner-tablette.jpg);
-        width: 30em;
+        width: 50em;
     }
-    h2 {
-        margin-right: 2em;
+    #title-services {
+        margin-left: 11em;
+        font-size: 2em;
+        width: 50em;
     }
     #presta {
-        font-size: 0.9em;
-        width: 30em;
-        margin-left: 4em;
+        font-size: 0.8em;
+        width: 40em;
+        margin-left: 14em;
         margin-right: 0.5em;
+    }
+    #border {
+        width: 8em;
+        margin-left: 22em;
     }
     #col {
         display: flex;
         align-self: flex-start;
         width: 20em;
         padding-right: 0.5em;
-        padding-left: 0.5em;
+        padding-left: 0em;
         font-size: 0.7em;
     }
     #title-services {
         width: 20em;
+        font-size: 1.5em;
+        font-weight: 550;
     }
     .services {
-        width: 20em;
-        font-size: 1em;
+        width: 15em;
+        font-size: 1.2em;
         padding-left: 0em;
     }
     .text-service {
         font-size: 1em;
-        width: 10em;
+        width: 13em;
     }
 }
 
 /* Desktop */
 @media (min-width: 991px) {
-    #banner {
-        background-image: url(/src/assets/banner-tablette.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
+    .ban-services {
         width: 63em;
     }
     #title-services {
         margin-right: 2em;
-        margin-left: 10em;
+        margin-left: 9em;
         font-size: 2em;
-        font-weight: 530;
+        font-weight: 500;
     }
     .img-article {
-        width: 6em;
+        width: 3em;
+        margin-right: 2em;
     }
     #presta {
         font-size: 1em;
         padding-right: 0px;
         margin-right: 0px;
-        margin-left: 18em;
+        margin-left: 10em;
+    }
+    #border {
+        width: 12em;
+        margin-left: 25em;
     }
     #col {
         display: flex;
         align-self: flex-start;
-        width: 25em;
-        padding-left: 15em;
+        width: 40em;
+        padding-left: 5em;
        
     }
     .services {
-        width: 17em;
-        padding-left: 2em;
+        width: 30em;
+        padding-left: 1em;
+        margin-left: 0em;
     }
     .text-service {
-        font-size: 1.5em;
-        width: 12em;
+        font-size: 1em;
         margin-right: 2em;
         padding-right: 2em;
+        width: 20em;
     } 
     
     h4 {
-        font-size: 2em;
+        font-size: 1.2em;
+        margin-right: 2em;
     }
 }

@@ -12,10 +12,9 @@ function MyBlog () {
         
        
 <Header/>
-        
-
         <div className="Blog">
           <div id="banner"></div>
+          <img src="/src/assets/banner-mobile.jpg"></img>
             <h2 id="title-blog"> BLOG</h2>
             <p id ="little-tittle-blog"> Retrouvez ici quelques articles sur le développement web.</p>
 

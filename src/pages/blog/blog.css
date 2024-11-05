@@ -1,3 +1,8 @@
+#banner {
+    
+    width: 20em;
+}
+
 #title-blog {
     display:flex;
     margin-top: 10em;
