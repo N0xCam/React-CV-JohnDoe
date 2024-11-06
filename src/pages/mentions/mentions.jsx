@@ -1,5 +1,6 @@
 import Header from "../home/header";
 import Footer from "../home/footer";
+import "./mentions.css"
 
 const Mentions = () => {
     return (
@@ -13,6 +14,7 @@ const Mentions = () => {
 
       <h2 className="title-legal">Mentions légales</h2>
 
+      <div className="border-ment"></div>
       <div className="accordion" id="accordionMentions">
         <div className="accordion-item">
           <h2 className="accordion-header">

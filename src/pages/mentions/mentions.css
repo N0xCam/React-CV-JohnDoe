@@ -1,6 +1,13 @@
+.border-ment {
+    border-bottom: 0.4em solid #0d6efd;
+    width: 7em;
+    margin-left: 9em;
+    margin-bottom: 1em;
+}
+
 .title-legal {
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
     text-transform:uppercase;
     font-weight: 30;
 }
@@ -50,4 +57,23 @@ svg {
 .accordion-body-cr {
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+/* Tablette */
+@media (min-width: 768px) {
+.title-legal {
+    font-weight: 500;
+    font-size: 2.5em;
+}
+.border-ment {
+    border-bottom: 0.4em solid #0d6efd;
+    width: 12em;
+    margin-left: 19em;
+    margin-bottom: 1em;
+}
+}
+
+/* Desktop */
+@media (min-width: 991px) {
+
 }
