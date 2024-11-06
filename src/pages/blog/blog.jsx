@@ -19,6 +19,7 @@ function MyBlog () {
             <p id ="little-tittle-blog"> Retrouvez ici quelques articles sur le développement web.</p>
 
     <div id="border-blog"></div>
+    <div className="blog-desktop">
     <div className='blog-tablette'>
     <div className='realisations'>
     <Card style={{ width: '24rem' }}>
@@ -54,7 +55,9 @@ function MyBlog () {
     </Card>
     </div>
     </div>
+    </div>
 
+    <div className="blog-desktop">
     <div className='blog-tablette'>
     <div className='realisations'>
     <Card style={{ width: '24rem' }}>
@@ -90,8 +93,10 @@ function MyBlog () {
     </Card>
     </div>
     </div>
+    </div>
 
 
+    <div className="blog-desktop">
     <div className='blog-tablette'>
     <div className='realisations'>
     <Card style={{ width: '24rem' }}>
@@ -110,6 +115,7 @@ function MyBlog () {
     </Card>
     </div>
 
+    
     <div className='realisations'>
     <Card style={{ width: '24rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art3.png" className='img-blog'/>
@@ -125,6 +131,7 @@ function MyBlog () {
         </Card.Text>
       </Card.Body>
     </Card>
+    </div>
     </div>
     </div>
     </div>
