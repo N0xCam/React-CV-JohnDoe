@@ -1,12 +1,14 @@
-#banner {
-    
-    width: 20em;
+#ban-blog {
+    background-image: url(/src/assets/banner-mobile.jpg);
+    height: 7em;
+    width: 26em;
+    background-size: cover;
 }
 
 #title-blog {
     display:flex;
     margin-top: 10em;
-    margin-top: 1em;
+    margin-top: 2em;
     font-weight: 500;
     font-size: 2em;
     margin-left: 5em;
@@ -15,14 +17,19 @@
 #little-tittle-blog {
     font-size: 1.4em;
     width: 15em;
-    margin-left: 3em;
-    padding-bottom: 1em;
+    margin-left: 2em;
     padding-top: 0.5em;
-    border-bottom: 0.3em solid #0d6efd;
+}
+
+#border-blog {
+    border-bottom: 0.4em solid #0d6efd;
+    width: 7em;
+    margin-left: 9em;
+    margin-bottom: 3em;
 }
 
 .realisations {
-    width: 10em;
+    width: 7em;
     border-top: solid 1px #c4c9d1;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
@@ -30,47 +37,87 @@
 
 .img-blog {
     width: 24em;
-    margin-left: 0.5em;
+}
+
+.blog-tablette {
+    margin-left: 1em;
+    width: 10em;
 }
 
 .blog {
-    font-size: 2em;
-    font-weight: 500;
+    font-size: 1.5em;
+    font-weight: 600;
     display: flex;
     text-align: start;
-    width: 10em;
+    width: 14em;
+    padding-left: 0.5em;
 }
 
-.changerNOM--text {
-    display: flex;
-    margin-left: 0em;
-    width: 10em;
-}
 .techno-blog {
-    border-top: solid 1px #c4c9d1
+    border-top: solid 1px #c4c9d1;
+    display: flex;
+    width: 21.6em;
+    padding-left: 1em;
 }
 
 .btn-blog {
     display: flex;
-    height: 2.5em;
-    width: 7em;
+    height: 2.2em;
+    width: 6.5em;
     font-size: 1.2em;
     text-align: center;
     margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.text {
+    padding-left: 1em;
+    width: 25em;
 }
 
 /* Tablette */
-@media (min-width: 480px) {
+@media (min-width: 768px) {
+
+    #ban-blog {
+        background-image: url(/src/assets/banner-mobile.jpg);
+        height: 10em;
+        width: 50em;
+        background-size: cover;
+    }
+
+    #title-blog {
+        font-size: 2em;
+        font-weight: 600;
+        padding-left: 6em;
+    }
+
+    #little-tittle-blog {
+        width: 50em;
+        margin-left: 5em;
+        display: flex;
+    }
+
     .realisations {
         display: flex;
-        width: 15em;
-        border: 0.1em solid #c4c9d1;
+        width: 22em;
+        margin-right: 1.5em;
+        padding-top: 0em;
+
     }
+
+    #border-blog {
+        border-bottom: 0.3em solid #0d6efd;
+        width: 11.5em;
+        margin-left: 19em;
+        margin-bottom: 3em;
+    }
+
     .techno-blog {
-        border-top: 0.1em solid #000205;
+        border-top: 0.1em solid #c4c9d1;
+        width: 21em;
     }
     .img-blog {
-        width: 10em;
+        width: 21em;
     }
     .blog {
         font-size: 1.5em;
@@ -78,40 +125,19 @@
    .blog-tablette {
     display: flex;
    }
+   .text {
+    width: 20em;
+   }
 }
 
 /* Desktop */
 @media (min-width: 991px) {
-    #title-blog {
-        font-size: 2em;
-        margin-left: 13.5em;
+
+    #ban-blog {
+        background-image: url(/src/assets/banner-mobile.jpg);
+        height: 7em;
+        width: 80em;
+        background-size: cover;
     }
-    #little-tittle-blog {
-        font-size: 1.5em;
-        width: 30em;
-        margin-left: 5em;
-    }
-    .realisations {
-        border: 0.1em solid #c4c9d1;
-        width: 25em;
-        height: 40em;
-    }
-    .Card.Text {
-        font-size: 1em;
-    }
-    .card {
-        padding-right: 0em;
-    }
-    .blog-desktop {
-        display: flex;
-        flex-direction: column;
-        column-count: 3;
-    }
-    .blog-tablette {
-      display: flex;
-      flex-direction: row;
-    }   
-    .img-blog {
-        width: 20em;
-    }
+    
 }

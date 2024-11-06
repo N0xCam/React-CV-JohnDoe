@@ -2,6 +2,7 @@ import Header from "../home/header";
 import Footer from "../home/footer"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import "./realisations.css"
 
 function Realisations () {
     return (
@@ -9,16 +10,19 @@ function Realisations () {
         <Header/>
         
         <div className="Realisations">
-            <div id="banner"> </div>
+            <div id="ban-real"> </div>
 
         <div id="title">
         <h2 id="title-realisations"> PORTFOLIO</h2>
         <h3 id="little-title-realisations"> Voici quelques-unes de mes réalisations.</h3>
         </div>
 
+        <div id="border-real"></div>
+
       <div id="realisations">
       <div id="col2-tabl">
       <div className='card'>
+      <div className="real">
       <Card>
       <Card.Img variant="top" src="/src/assets/realisations/fresh-food.png" className='img-realisations'/>
       <Card.Body>
@@ -35,7 +39,9 @@ function Realisations () {
       </Card.Body>
     </Card>
     </div>
+    </div>
 
+    <div className="real">
     <div className='card'>
     <Card>
       <Card.Img variant="top" src="/src/assets/realisations/restaurant-akira.png" className='img-realisations' />
@@ -54,8 +60,9 @@ function Realisations () {
     </Card>
     </div>
     </div>
+    </div>
  
-
+    <div className="real">
     <div className='card'>
     <div id="col2-tabl">
     <Card>
@@ -73,6 +80,7 @@ function Realisations () {
         </Card.Text>
       </Card.Body>
     </Card>
+    </div>
     </div>
     </div>
     </div>

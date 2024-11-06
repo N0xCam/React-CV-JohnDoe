@@ -1,7 +1,14 @@
 
-#mycontactpage{
-    border:solid 1em #0d6efd;
-    border-bottom: solid 3em #0d6efd;
+.box-contact{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 60px;
+    padding-top: 1em;
+    background: url(/src/assets/at-140572_1280.jpg)no-repeat center center /
+    cover;
+    z-index: 1;
+
+
   }
 
 #tab {
@@ -30,6 +37,27 @@
     margin-left: 5em;
     margin-right: 5em;
     width: 13.6em;
+}
+
+.border-contact1 {
+    border-bottom: 0.4em solid #0d6efd;
+    width: 5em;
+    margin-left: 9.5em;
+    margin-bottom: 3em;
+}
+
+.border-contact2 {
+    border-bottom: 0.3em solid #0d6efd;
+    width: 19em;
+    margin-left: 0em;
+    margin-bottom: 3em;
+}
+
+.border-contact3 {
+    border-bottom: 0.2em solid #0d6efd;
+    width: 18em;
+    margin-left: 2em;
+    margin-bottom: 3em;
 }
 
 #title-form {
@@ -77,7 +105,7 @@ em {
     display: flex;
     text-align: start;
     margin-left: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     width: 4em;
 }
 
@@ -95,11 +123,13 @@ iframe {
     margin-left: 1em;
     margin-bottom: 2em;
     width: 15em;
+    height: 20em;
     display: flex;
+    padding-bottom: 2em;
 }
 
 /* Tablette */
-@media (min-width: 480px) {
+@media (min-width: 768px) {
     #title-contact {
         width: 19em;
         display: flex;
@@ -109,23 +139,46 @@ iframe {
     #tit-contact {
         width: 9em;
         margin-bottom: 0.5em;
+        display: flex;
+        margin-left: 8em;
     }
 
     #little-title-contact {
-        width: 25em;
+        width: 30em;
         font-size: 0.8em;
+        display: flex;
+        margin-left: 15em;
     }
     .tablette {
         display: flex;
         flex-direction: column;
     }
+
+    .border-contact1 {
+        border-bottom: 0.3em solid #0d6efd;
+        width: 9em;
+        margin-left: 19em;
+        margin-bottom: 3em;
+    }
+    
+    .border-contact2 {
+        border-bottom: 0.1em solid #0d6efd;
+        width: 15em;
+        margin-left: 0em;
+        margin-bottom: 3em;
+    }
+    
+    .border-contact3 {
+        border-bottom: 0.1em solid #0d6efd;
+        width: 18em;
+        margin-left: 1em;
+        margin-bottom: 3em;
+    }
+
     #my-form {
         width: 8em;
         margin-left: 0em;
-    }
-    iframe {
-        width: 10em;
-        margin-left: 0em;
+        margin-right: 9em;
     }
     #tab {
         display: flex;
@@ -144,8 +197,8 @@ iframe {
         font-size: 0.8em;
     }
     iframe {
-        width: 13em;
-        height: 10em;
+        width: 18em;
+        height: 15em;
     }
 }
 
@@ -160,13 +213,36 @@ iframe {
     #little-title-contact {
         width: 50em;
         font-size: 1em;
+        margin-left: 5em;
     }
     .tablette {
         display: flex;
         flex-direction: column;
     }
+    .border-contact1 {
+        border-bottom: 0.3em solid #0d6efd;
+        width: 12em;
+        margin-left: 26em;
+        margin-bottom: 3em;
+    }
+    
+    .border-contact2 {
+        border-bottom: 0.1em solid #0d6efd;
+        width: 25em;
+        margin-left: 0em;
+        margin-bottom: 3em;
+    }
+    
+    .border-contact3 {
+        border-bottom: 0.1em solid #0d6efd;
+        width: 25em;
+        margin-right: 1em;
+        margin-bottom: 3em;
+    }
+
     #my-form {
         width: 20em;
+        margin-right: 1em;
     }
     iframe {
         width: 30em;
@@ -179,7 +255,8 @@ iframe {
     #my-contact {
         display: flex;
         flex-direction: column;
-        margin-left: 6em;
+        margin-left: 0em;
+        margin-right: 1em;
     }
     #title-form {
         font-size: 1.5em;
@@ -192,5 +269,9 @@ iframe {
     }
     .text-address {
         padding-top: 0em;
+    }
+    iframe {
+        width: 25em;
+        height: 15em;
     }
 }

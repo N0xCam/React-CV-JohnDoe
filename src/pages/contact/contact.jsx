@@ -1,22 +1,26 @@
 import Header from "../home/header";
 import Footer from "../home/footer";
+import "./contact.css";
 
 function Contact () {
     return (
         <>
         <Header/>
 
-        <div id="box">
+        <div className="container-fluid box-contact">
         <div id="mycontactpage">
         <div id="contact">
             <div id="content">
             <h2 id="tit-contact"> Me contacter </h2>
             <p id="little-title-contact"> Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
 
+            <div className="border-contact1"></div>
+
             <div id="tab">
             <div className="tablette">
             <div id="my-form">
             <h3 id="title-form"> Formulaire de contact</h3>
+            <div className="border-contact2"></div>
             <form>
             <div className="mb-3">
                 <input
@@ -73,6 +77,7 @@ function Contact () {
             <div className="tablette">
             <div id="my-contact">
             <h3 id="title-contact"> Mes coordonnées </h3>
+            <div className="border-contact3"></div>
             
             <address id="contact-address">
                 <em className="text-address"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">

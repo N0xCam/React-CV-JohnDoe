@@ -13,14 +13,15 @@ function MyBlog () {
        
 <Header/>
         <div className="Blog">
-          <div id="banner"></div>
-          <img src="/src/assets/banner-mobile.jpg"></img>
+          <div id="ban-blog"></div>
+         
             <h2 id="title-blog"> BLOG</h2>
             <p id ="little-tittle-blog"> Retrouvez ici quelques articles sur le développement web.</p>
 
+    <div id="border-blog"></div>
     <div className='blog-tablette'>
     <div className='realisations'>
-    <Card style={{ width: '25rem' }}>
+    <Card style={{ width: '24rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art1.png" className='img-blog' />
       <Card.Body>
         <Card.Title className='blog'>Coder son site en HTML/CSS</Card.Title>
@@ -36,10 +37,8 @@ function MyBlog () {
     </Card>
     </div>
     
-
-    
     <div className='realisations'>
-    <Card style={{ width: '28rem' }}>
+    <Card style={{ width: '24rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art2.png" className='img-blog'/>
       <Card.Body>
         <Card.Title className='blog'>Vendre ses produits sur le web</Card.Title>
@@ -58,7 +57,7 @@ function MyBlog () {
 
     <div className='blog-tablette'>
     <div className='realisations'>
-    <Card style={{ width: '28rem' }}>
+    <Card style={{ width: '24rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art4.png" className='img-blog'/>
       <Card.Body>
         <Card.Title className='blog'>Coder en responsive design</Card.Title>
@@ -75,7 +74,7 @@ function MyBlog () {
     </div>
 
     <div className='realisations'>
-    <Card style={{ width: '28rem' }}>
+    <Card style={{ width: '24rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art5.png" className='img-blog'/>
       <Card.Body>
         <Card.Title className='blog'>Techniques de référencement</Card.Title>
@@ -95,7 +94,7 @@ function MyBlog () {
 
     <div className='blog-tablette'>
     <div className='realisations'>
-    <Card style={{ width: '28rem' }}>
+    <Card style={{ width: '24rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art6.png" className='img-blog'/>
       <Card.Body>
         <Card.Title className='blog'>Apprendre à coder </Card.Title>
@@ -112,7 +111,7 @@ function MyBlog () {
     </div>
 
     <div className='realisations'>
-    <Card style={{ width: '28rem' }}>
+    <Card style={{ width: '24rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art3.png" className='img-blog'/>
       <Card.Body>
         <Card.Title className='blog'>Se positionner sur Google</Card.Title>
@@ -128,7 +127,8 @@ function MyBlog () {
     </Card>
     </div>
     </div>
-    </div> 
+    </div>
+
 
 
     <Footer/>
