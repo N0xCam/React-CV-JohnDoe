@@ -6,7 +6,7 @@ const Mentions = () => {
     return (
             <>
             <Header/>
-            <div id="mentions">
+            <div className="mentions">
       <head>
         <meta name="robots" content="noindex, nofollow"/>
       </head>

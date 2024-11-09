@@ -8,17 +8,17 @@ function Myservices () {
         <>
         
         <Header/>
-        <div id="services">
+        <div className="services">
 
 <div className="ban-services">
 
 </div>
 
-<h2 id="title-services"> MON OFFRE DE SERVICES</h2>
-<h3 id="presta"> Voici les prestations sur lesquelles je peux intervenir.</h3>
+<h2 className="title-services"> MON OFFRE DE SERVICES</h2>
+<h3 className="presta"> Voici les prestations sur lesquelles je peux intervenir.</h3>
 
-<div id="border"></div>
-<div id="col">
+<div className="border"></div>
+<div className="col">
 <article className="services">
     <img src="./src/assets/services/1.png" className="img-article"></img>
     <h4> UX DESIGN </h4>

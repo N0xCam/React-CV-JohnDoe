@@ -10,17 +10,17 @@ function Realisations () {
         <Header/>
         
         <div className="Realisations">
-            <div id="ban-real"> </div>
+            <div className="ban-real"> </div>
 
-        <div id="title">
-        <h2 id="title-realisations"> PORTFOLIO</h2>
-        <h3 id="little-title-realisations"> Voici quelques-unes de mes réalisations.</h3>
+        <div className="title">
+        <h2 className="title-realisations"> PORTFOLIO</h2>
+        <h3 className="little-title-realisations"> Voici quelques-unes de mes réalisations.</h3>
         </div>
 
-        <div id="border-real"></div>
+        <div className="border-real"></div>
 
-      <div id="realisations">
-      <div id="col2-tabl">
+      <div className="realisations">
+      <div className="col2-tabl">
       <div className='card'>
       <div className="real">
       <Card>
@@ -64,7 +64,7 @@ function Realisations () {
  
     <div className="real">
     <div className='card'>
-    <div id="col2-tabl">
+    <div className="col2-tabl">
     <Card>
       <Card.Img variant="top" src="/src/assets/realisations/bien-etre.png" className='img-realisations' />
       <Card.Body>

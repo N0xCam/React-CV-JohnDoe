@@ -6,9 +6,9 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
   return (
-    <Navbar expand="lg" className="titleNav">
+    <Navbar expand="lg" className="container-fluid titleNav">
       <Container>
-        <Navbar.Brand href="Home" id="brand"> <Nav.Link href="/">JOHN DOE </Nav.Link></Navbar.Brand>
+        <Navbar.Brand href="Home" className="brand"> <Nav.Link href="/">JOHN DOE </Nav.Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic" /> 
         <Navbar.Collapse id="basic-navbar-nav"> 
           <Nav className="me-auto">
@@ -21,6 +21,7 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+   
   );
 }
 

@@ -1,18 +1,18 @@
-#ban-real {
+.ban-real {
     background-image: url(/src/assets/banner-mobile.jpg);
     height: 7em;
     width: 26em;
     background-size: cover;
 }
 
-#title-realisations {
+.title-realisations {
     padding-top: 2em;
     font-size: 2.2em;
     font-weight: 500;
     padding-bottom: 0.5em;
 }
 
-#little-title-realisations {
+.little-title-realisations {
     font-size: 1.7em;
     font-weight: 500;
     padding-bottom: 1em;
@@ -20,13 +20,13 @@
     margin-left: 0em;
 }
 
-#border-real {
+.border-real {
     border-bottom: 0.4em solid #0d6efd;
     width: 7em;
     margin-left: 9em;
 }
 
-#realisations {
+.realisations {
     padding-top: 3em;
 }
 
@@ -81,28 +81,28 @@
 /* Tablette */
 @media (min-width: 768px) {
 
-    #ban-real {
+    .ban-real {
         width: 50em;
         height: 10em;
         background-image: cover;
     }
-    #title-realisations {
+    .title-realisations {
         font-size: 2.5em;
         display: flex;
         text-align: center;
         margin-left: 7em;
         padding-bottom: 0em;
     }
-    #little-title-realisations {
+    .little-title-realisations {
         font-size: 1.2em;
         margin-left: 10em;
         width: 20em;
     }
-    #border-real {
+    .border-real {
         width: 10em;
         margin-left: 20em;
     }
-    #realisations {
+    .realisations {
         display: flex;
     }
     .card {
@@ -114,7 +114,7 @@
     .img-realisations {
         width: 22em;
     }
-    #col2-tabl {
+    .col2-tabl {
         display: flex;
         flex-direction: column;
     }
@@ -138,24 +138,24 @@
 
 /*Desktop */
 @media (min-width: 991px) {
-    #ban-real {
+    .ban-real {
         width: 63em;
     }
-    #title-realisations {
+    .title-realisations {
         margin-left: 9em;
         padding-top: 1em;
     }
-    #little-title-realisations {
+    .little-title-realisations {
         font-size: 1.5em;
     }
-    #border-real {
+    .border-real {
         width: 20em;
     }
-   #realisations {
+   .realisations {
     display: flex;
     flex-direction: row;
    }
-   #col2-tabl { 
+   .col2-tabl { 
     display: flex;
     flex-direction: row;
    }

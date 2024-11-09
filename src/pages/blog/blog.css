@@ -1,11 +1,11 @@
-#ban-blog {
+.ban-blog {
     background-image: url(/src/assets/banner-mobile.jpg);
     height: 7em;
     width: 26em;
     background-size: cover;
 }
 
-#title-blog {
+.title-blog {
     display:flex;
     margin-top: 10em;
     margin-top: 2em;
@@ -14,14 +14,14 @@
     margin-left: 5em;
 }
 
-#little-tittle-blog {
+.little-tittle-blog {
     font-size: 1.4em;
     width: 15em;
     margin-left: 2em;
     padding-top: 0.5em;
 }
 
-#border-blog {
+.border-blog {
     border-bottom: 0.4em solid #0d6efd;
     width: 7em;
     margin-left: 9em;
@@ -78,20 +78,20 @@
 /* Tablette */
 @media (min-width: 768px) {
 
-    #ban-blog {
+    .ban-blog {
         background-image: url(/src/assets/banner-mobile.jpg);
         height: 10em;
         width: 50em;
         background-size: cover;
     }
 
-    #title-blog {
+    .title-blog {
         font-size: 2em;
         font-weight: 600;
         padding-left: 6em;
     }
 
-    #little-tittle-blog {
+    .little-tittle-blog {
         width: 50em;
         margin-left: 5em;
         display: flex;
@@ -105,7 +105,7 @@
 
     }
 
-    #border-blog {
+    .border-blog {
         border-bottom: 0.3em solid #0d6efd;
         width: 11.5em;
         margin-left: 19em;
@@ -121,9 +121,19 @@
     }
     .blog {
         font-size: 1.5em;
+        display: flex;
+        flex-direction: column;
     }
-   .blog-tablette {
+    .realisations {
+        display: flex;
+        flex-direction: row;
+    }
+   .blog-desktop {
     display: flex;
+    flex-direction: column;
+    column-count: 2;
+    
+    
    }
    .text {
     width: 20em;
@@ -133,11 +143,13 @@
 /* Desktop */
 @media (min-width: 991px) {
 
-    #ban-blog {
+    .ban-blog {
         background-image: url(/src/assets/banner-mobile.jpg);
         height: 7em;
         width: 80em;
         background-size: cover;
     }
-    
-}
+    .blog-desktop {
+        display: flex;
+    }
+    }   

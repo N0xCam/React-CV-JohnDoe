@@ -5,7 +5,7 @@
     background-size: cover;
 }
 
-#title-services {
+.title-services {
     font-weight: 400;
     font-size: 1.7em;
     margin-left: 3em;
@@ -15,7 +15,7 @@
 
 }
 
-#presta {
+.presta {
     font-size: 1.2em;
     font-weight: 500;
     padding-bottom: 0.5em;
@@ -25,7 +25,7 @@
     padding-left: 2em;
 }
 
-#border {
+.border {
     border-bottom: 5px solid #0d6efd;
     width: 6em;
     margin-left: 10em;
@@ -50,7 +50,7 @@ h4 {
     text-transform: uppercase;
 }
 
-#col {
+.col {
     padding-right: 2em;
 }
 
@@ -64,22 +64,22 @@ h4 {
         background-image: url(/src/assets/banner-tablette.jpg);
         width: 50em;
     }
-    #title-services {
+    .title-services {
         margin-left: 11em;
         font-size: 2em;
         width: 50em;
     }
-    #presta {
+    .presta {
         font-size: 0.8em;
         width: 40em;
         margin-left: 14em;
         margin-right: 0.5em;
     }
-    #border {
+    .border {
         width: 8em;
         margin-left: 22em;
     }
-    #col {
+    .col {
         display: flex;
         align-self: flex-start;
         width: 20em;
@@ -87,7 +87,7 @@ h4 {
         padding-left: 0em;
         font-size: 0.7em;
     }
-    #title-services {
+    .title-services {
         width: 20em;
         font-size: 1.5em;
         font-weight: 550;
@@ -108,7 +108,7 @@ h4 {
     .ban-services {
         width: 63em;
     }
-    #title-services {
+    .title-services {
         margin-right: 2em;
         margin-left: 9em;
         font-size: 2em;
@@ -118,17 +118,17 @@ h4 {
         width: 3em;
         margin-right: 2em;
     }
-    #presta {
+    .presta {
         font-size: 1em;
         padding-right: 0px;
         margin-right: 0px;
         margin-left: 10em;
     }
-    #border {
+    .border {
         width: 12em;
         margin-left: 25em;
     }
-    #col {
+    .col {
         display: flex;
         align-self: flex-start;
         width: 40em;

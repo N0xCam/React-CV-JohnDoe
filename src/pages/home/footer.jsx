@@ -6,28 +6,28 @@ import "./home.css";
 const Footer = () => {
 return (
 
-<div id="footer">
+<div className="footer">
 
-<div className="container">
-  <div id="footer-tablette-col1">
+<div className="container-fluid">
+  <div className="footer-tablette-col1">
         <div className="box">
           <div className="footer-desktop">
           <div className="address">
-            <h3 id="brandfooter">John Doe</h3>
-            <address id="footer-address">
+            <h3 className="brandfooter">John Doe</h3>
+            <address className="footer-address">
             <em className="foot-addr">40 Rue Laure Diebold </em> 
             <em className="foot-addr">69009 Lyon, France </em>
             <em className="foot-addr"> Téléphone : 06 20 30 40 50 </em>
             </address>
 
             <div className="medias">
-              <div id="Github">
+              <div className="Github">
               <a href="https://github.com/github-john-doe"  target="_blank"><img src="./src/assets/github_logo.png" className="Github"></img> </a>
               </div>
-              <div id="X">
+              <div className="X">
               <a href="https://twitter.com"  target="_blank"> <img src="./src/assets/footer_X.png"  className="X"></img></a>
               </div>
-              <div id="LinkedIn">
+              <div className="LinkedIn">
               <a href="https://linkedin.com"  target="_blank"><img src="./src/assets/footer_LINKEDin.png" href="https://github.com" className="LinkdIn"></img></a>
               </div>
               </div>

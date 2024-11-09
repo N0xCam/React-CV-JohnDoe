@@ -9,6 +9,8 @@ import Contact from "./pages/contact/contact"
 import Realisations from "./pages/realisations/realisations"
 import Services from "./pages/services/services"
 import Mentions from "./pages/mentions/mentions"
+import ScrollTop from "./components/ScrollTop";
+import User from "./components/User";
 
 function App() {
   return (
@@ -16,7 +18,6 @@ function App() {
     <div className="App">
 <div className="home"></div>
  
-
       <BrowserRouter>
       <Routes>
       <Route path="/" element={<Home />} />
@@ -26,10 +27,11 @@ function App() {
       <Route path="/services" element={<Services />} />
       <Route path="/mentions" element={<Mentions />} />
       </Routes>
+      <ScrollTop/>
       </BrowserRouter>
 
-
     </div>
+  
   );
 }
 
