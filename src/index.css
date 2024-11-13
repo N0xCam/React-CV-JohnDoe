@@ -12,7 +12,14 @@
   margin: 0;
 }
 
-
+.scroll-to-top {
+  background-color: #298eff;
+  color: black;
+  border-radius: 2%;
+  position: fixed;
+  bottom: 20px;
+  right: 120px;
+}
 
 
 button {

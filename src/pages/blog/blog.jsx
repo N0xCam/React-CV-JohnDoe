@@ -22,7 +22,7 @@ function MyBlog () {
     <div className="blog-desktop">
     <div className='blog-tablette'>
     <div className='realisations'>
-    <Card style={{ wclassNameth: '24rem' }}>
+    <Card style={{ widht: '24rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art1.png" className='img-blog' />
       <Card.Body>
         <Card.Title className='blog'>Coder son site en HTML/CSS</Card.Title>
@@ -136,7 +136,7 @@ function MyBlog () {
     </div>
     </div>
     </div>
-    </div>
+
 
 
 

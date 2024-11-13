@@ -1,116 +1,125 @@
 .ban-services {
-    background-image: url(/src/assets/banner-mobile.jpg);
-    width: 26em;
-    height: 7em;
-    background-size: cover;
+    width: 100%;
 }
 
-.title-services {
-    font-weight: 400;
-    font-size: 1.7em;
-    margin-left: 3em;
-    padding-top: 2em;
+.Services {
+    align-items: center;
+    justify-content: center;
+    padding-top: 0em;
+}
+
+
+.title-service {
+    font-weight: 500;
+    padding-top:1.5em;
     display: flex;
-    width: 10em;
-
+    text-align: center;
 }
-
 .presta {
+    color:#444;
     font-size: 1.2em;
-    font-weight: 500;
-    padding-bottom: 0.5em;
-    border-width: 0.2em;
-    width: 25em;
-    padding-right: 5em;
-    padding-left: 2em;
+    font-weight: 550;
+    display: flex;
+    text-align: center;
+    width: 20em;
 }
-
-.border {
-    border-bottom: 5px solid #0d6efd;
-    width: 6em;
-    margin-left: 10em;
-}
-
-.services {
-    margin-top: 7em;
-    width: 17em;
-    margin-left: 5.5em;
-    font-size: 0.9em;
-}
-
-.services:hover {
-    color:#cde1f8 
-}
-
-h4 {
+.border-services {
+    border-bottom: 0.4em solid #0d6efd;
+    width: 7em;
+    margin-left: 9em;
+    margin-bottom: 3em;
     margin-top: 1em;
-    margin-bottom: 0.5em;
-    font-size: 1.3em;
-    font-weight: 500;
+}
+.descri-services {
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.img-article {
+    width: 4em;
+    align-self: center;
+}
+.my-services {
+    font-size: 1.5em;
     text-transform: uppercase;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
-
-.col {
-    padding-right: 2em;
-}
-
 .text-service {
-    font-size: 1em;
+    font-size: 1.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color:#444;
 }
 
 /* Tablette */
 @media (min-width: 768px) {
     .ban-services {
-        background-image: url(/src/assets/banner-tablette.jpg);
-        width: 50em;
+        width: 100%;
+        height: 7em;
     }
-    .title-services {
-        margin-left: 11em;
+    .title-service {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
         font-size: 2em;
-        width: 50em;
+        font-weight: 500;
+        width: 20em;
+        margin-left: 2em;
+        padding-bottom: 0.2em;
     }
     .presta {
-        font-size: 0.8em;
-        width: 40em;
-        margin-left: 14em;
-        margin-right: 0.5em;
+        font-size: 1em;
+        display: flex;
+        text-align: center;
+        width: 30em;
+        margin-left: 11em;
+        margin-right: 1em;
     }
-    .border {
-        width: 8em;
-        margin-left: 22em;
+    .border-services {
+        border-bottom: 0.4em solid #0d6efd;
+        width: 12em;
+        margin-left: 18em;
+        margin-bottom: 3em;
+        margin-top: 1em;
     }
     .col {
         display: flex;
-        align-self: flex-start;
-        width: 20em;
-        padding-right: 0.5em;
-        padding-left: 0em;
-        font-size: 0.7em;
-    }
-    .title-services {
-        width: 20em;
-        font-size: 1.5em;
-        font-weight: 550;
-    }
-    .services {
+        padding-left: 1em;
+        padding-right: 1em;
         width: 15em;
-        font-size: 1.2em;
-        padding-left: 0em;
     }
+   
+    .my-services {
+        font-size: 1em;
+        padding-top: 1.2em;
+        font-weight: bold;
+    }
+
     .text-service {
         font-size: 1em;
         width: 13em;
     }
+    .descri-services {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .img-article {
+        width: 3em;
+    }
+    
 }
 
 /* Desktop */
 @media (min-width: 991px) {
     .ban-services {
-        width: 63em;
+        width: 100%;
     }
-    .title-services {
-        margin-right: 2em;
-        margin-left: 9em;
+    
+    .title-service {
+        display: flex;
+        margin-left: 6em;
         font-size: 2em;
         font-weight: 500;
     }
@@ -122,33 +131,29 @@ h4 {
         font-size: 1em;
         padding-right: 0px;
         margin-right: 0px;
-        margin-left: 10em;
+        margin-left: 19em;
     }
-    .border {
-        width: 12em;
+    .border-services {
+        width: 14em;
         margin-left: 25em;
     }
     .col {
         display: flex;
         align-self: flex-start;
-        width: 40em;
-        padding-left: 5em;
-       
-    }
-    .services {
-        width: 30em;
-        padding-left: 1em;
-        margin-left: 0em;
+        width: 30em; 
     }
     .text-service {
         font-size: 1em;
-        margin-right: 2em;
-        padding-right: 2em;
         width: 20em;
     } 
-    
-    h4 {
+    .img-article {
+        width: 3.5em;
+    }
+    .my-services {
         font-size: 1.2em;
-        margin-right: 2em;
+    }
+    .descri-services {
+        padding-left: 0em;
+        
     }
 }

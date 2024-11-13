@@ -11,23 +11,26 @@ function MyHome () {
            
            <div className="container-fluid myhome">
            <header className="container-fluid Introduction">
-            <h1 className="Hello"> Bonjour, je suis John Doe</h1>
+            <div className="filter">
+            <h1 className="Hello"> Bonjour, je suis </h1>
+            <h2 className="name"> John Doe</h2>
             <h2 className="Job"> Développeur web full stack</h2>
-            <div className="bouton">
-            <a href="#presentation">  <button>  En savoir plus</button> </a>
+            <div className="bouton-home">
+            <button className="mybut-home">  En savoir plus </button>
+            </div>
             </div>
             </header>
 
-            <div className="aboutme">
-            <div className='container-fluclassName colonnes'>
-            <section className="presentation">
+            <div className="container-fluid aboutme">
+            <div className='container-fluid className colonnes'>
+            <section id="container-fluid presentation">
                
                 <h2 className="about"> À propos </h2>
               
                 <article className="mypresentation">
-                <p className='text'>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d' <strong>intégrateur-développeur web </strong>au CEF. Au cours de cette formation, j'ai pu acquérir des bases solclassNamees pour travailler dans le domaine du <strong>développement web.</strong> </p>
+                <p className='text'>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d' <strong>intégrateur-développeur web </strong>au CEF. Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web.</strong> </p>
 
-                <p className='text'>Basé à Lyon, je suis en recherche d'une alternance au sein d'une agence digitale pour consolclassNameer ma formation de <strong>développeur web full stack.</strong></p>
+                <p className='text'>Basé à Lyon, je suis en recherche d'une alternance au sein d'une agence digitale pour consolider ma formation de <strong>développeur web full stack.</strong></p>
 
                 <p className='text'>J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web.</p>
 
@@ -37,7 +40,7 @@ function MyHome () {
            
             </div>
 
-            <div className="second">
+            <div className="second-col">
             <div className='colonnes'>
                 
                <div className="me"></div>

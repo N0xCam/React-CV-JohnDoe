@@ -1,4 +1,3 @@
-import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import 'bootstrap/scss/bootstrap.scss';
@@ -10,7 +9,7 @@ import Realisations from "./pages/realisations/realisations"
 import Services from "./pages/services/services"
 import Mentions from "./pages/mentions/mentions"
 import ScrollTop from "./components/ScrollTop";
-import User from "./components/User";
+import Github from "./components/User";
 
 function App() {
   return (
@@ -26,6 +25,7 @@ function App() {
       <Route path="/realisations" element={<Realisations />} />
       <Route path="/services" element={<Services />} />
       <Route path="/mentions" element={<Mentions />} />
+      <Route path="/User" element={<Github />} />
       </Routes>
       <ScrollTop/>
       </BrowserRouter>
