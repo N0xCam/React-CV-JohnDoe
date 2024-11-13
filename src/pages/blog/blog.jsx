@@ -18,9 +18,9 @@ function MyBlog () {
             <h2 className="title-blog"> BLOG</h2>
             <p className ="little-tittle-blog"> Retrouvez ici quelques articles sur le développement web.</p>
 
-    <div className="border-blog"></div>
-
+    <div id="border-blog"></div>
     <div className="blog-desktop">
+    <div className='blog-tablette'>
     <div className='realisations'>
     <Card style={{ wclassNameth: '24rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art1.png" className='img-blog' />
@@ -54,8 +54,11 @@ function MyBlog () {
       </Card.Body>
     </Card>
     </div>
- 
+    </div>
+    </div>
 
+    <div className="blog-desktop">
+    <div className='blog-tablette'>
     <div className='realisations'>
     <Card style={{ width: '24rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art4.png" className='img-blog'/>
@@ -92,7 +95,12 @@ function MyBlog () {
       </Card.Body>
     </Card>
     </div>
+    </div>
+    </div>
 
+
+    <div className="blog-desktop">
+    <div className='blog-tablette'>
     <div className='realisations'>
     <Card style={{ width: '24rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art6.png" className='img-blog'/>
@@ -110,7 +118,6 @@ function MyBlog () {
     </Card>
     </div>
 
-    
     <div className='realisations'>
     <Card style={{ width: '24rem' }}>
       <Card.Img variant="top" src="/src/assets/blog/art3.png" className='img-blog'/>
@@ -128,6 +135,9 @@ function MyBlog () {
     </Card>
     </div>
     </div>
+    </div>
+    </div>
+
 
 
     <Footer/>
