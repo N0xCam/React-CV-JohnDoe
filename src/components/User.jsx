@@ -15,14 +15,16 @@ function User () {
         return (
             <>
             <div className="User"></div> 
-                <h1> Github Users</h1>
-                <h2> {data.name}</h2>
-                <img src="./src/assets/nq6flz10.bmp"></img>
-            
+                <h1 className="profil"> Mon profil Github</h1>
+                <h2 className="name-profil"> {data.name}</h2>
+                <div className="div-img-github"> 
+                <img src="./src/assets/nq6flz10.bmp" className="github-picture" alt="doraemon"></img>
+                </div>
             <div>
-                Repositories : </div>
-                <a href="https://api.github.com/users/github-john-doe/repos"></a>
-            
+                <p className="text-profil"> Cliquez <a href ="https://api.github.com/users/github-john-doe/repos"> ici</a> pour consulter mes repositories Github</p>
+                 
+                
+                </div>
             </>
 
         );

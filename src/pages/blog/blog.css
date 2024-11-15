@@ -1,112 +1,132 @@
-#title-blog {
+.ban-blog {
+    width: 100%;
+}
+
+.title-blog {
     display:flex;
-    margin-top: 10em;
-    margin-top: 1em;
-    font-weight: 500;
-    font-size: 2em;
-    margin-left: 5em;
-}
-
-#little-tittle-blog {
-    font-size: 1.4em;
-    width: 15em;
-    margin-left: 3em;
-    padding-bottom: 1em;
-    padding-top: 0.5em;
-    border-bottom: 0.3em solid #0d6efd;
-}
-
-.realisations {
-    width: 10em;
-    border-top: solid 1px #c4c9d1;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-}
-
-.img-blog {
-    width: 24em;
-    margin-left: 0.5em;
-}
-
-.blog {
-    font-size: 2em;
-    font-weight: 500;
-    display: flex;
-    text-align: start;
-    width: 10em;
-}
-
-.text {
-    display: flex;
-    margin-left: 0em;
-    width: 10em;
-}
-.techno-blog {
-    border-top: solid 1px #c4c9d1
-}
-
-.btn-blog {
-    display: flex;
-    height: 2.5em;
-    width: 7em;
-    font-size: 1.2em;
+    flex-direction: column;
     text-align: center;
-    margin-bottom: 1em;
+    font-size: 2.5em;
+    font-weight: 500;
+    padding-top: 2em;
+    width: 100%;
 }
+
+.little-tittle-blog {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 1em;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.border-blog {
+    border-bottom: 0.4em solid #0d6efd;
+    width: 7em;
+    margin-left: 10em;
+    margin-bottom: 3em;
+}
+
+.title-art-blog {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 2em;
+}
+
+.text-blog {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.date-blog {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 0.5em;
+}
+
+.but-blog {
+    display: flex;
+    align-items: start;
+}
+
 
 /* Tablette */
-@media (min-width: 480px) {
-    .realisations {
+@media (min-width: 768px) {
+
+    .ban-blog {
+        width: 100%;
+        height: 8em;
+    }
+
+    .title-blog {
+        font-size: 2em;
+        width: 100%;
         display: flex;
-        width: 15em;
-        border: 0.1em solid #c4c9d1;
+        flex-direction: column;
+        text-align: center;
     }
-    .techno-blog {
-        border-top: 0.1em solid #000205;
+
+    .little-tittle-blog {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
-    .img-blog {
-        width: 10em;
+    .border-blog {
+        border-bottom: 0.4em solid #0d6efd;
+        width: 7em;
+        margin-left: 20em;
+        margin-bottom: 3em;
     }
-    .blog {
-        font-size: 1.5em;
+    .realisations {
+        padding-left: 0em;
     }
-   .blog-tablette {
-    display: flex;
-   }
-}
+    .col2-tabl {
+        padding-bottom: 2em;
+        padding-left: 0.1em;
+    }
+    .real {
+        padding-left: 0.1em;
+        padding-right:0em;
+    }
+    }
+
 
 /* Desktop */
 @media (min-width: 991px) {
-    #title-blog {
+
+    .ban-blog {
+        width: 100%;
+        height: 8em;
+    }
+    .title-blog {
         font-size: 2em;
-        margin-left: 13.5em;
-    }
-    #little-tittle-blog {
-        font-size: 1.5em;
-        width: 30em;
-        margin-left: 5em;
-    }
-    .realisations {
-        border: 0.1em solid #c4c9d1;
-        width: 25em;
-        height: 40em;
-    }
-    .Card.Text {
-        font-size: 1em;
-    }
-    .card {
-        padding-right: 0em;
-    }
-    .blog-desktop {
+        width: 100%;
         display: flex;
         flex-direction: column;
-        column-count: 3;
+        text-align: center;
     }
-    .blog-tablette {
-      display: flex;
-      flex-direction: row;
+    .little-tittle-blog {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .border-blog {
+        border-bottom: 0.4em solid #0d6efd;
+        width: 15em;
+        margin-left: 25em;
+        margin-bottom: 3em;
+    }
+    .realisations {
+        width: 50%;
+    }
+    .col2-tabl {
+        width: 100%;
+        padding-right:0em;
+    }
     }   
-    .img-blog {
-        width: 20em;
-    }
-}

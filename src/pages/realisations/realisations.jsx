@@ -2,6 +2,7 @@ import Header from "../home/header";
 import Footer from "../home/footer"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import "./realisations.css"
 
 function Realisations () {
     return (
@@ -9,18 +10,22 @@ function Realisations () {
         <Header/>
         
         <div className="Realisations">
-            <div id="banner"> </div>
+        <img src="/src/assets/banner-mobile.jpg" className="ban-real"></img>
 
-        <div id="title">
-        <h2 id="title-realisations"> PORTFOLIO</h2>
-        <h3 id="little-title-realisations"> Voici quelques-unes de mes réalisations.</h3>
+        <div className="title">
+        <h2 className="title-realisations"> PORTFOLIO</h2>
+        <h3 className="little-title-realisations"> Voici quelques-unes de mes réalisations.</h3>
         </div>
 
-      <div id="realisations">
-      <div id="col2-tabl">
-      <div className='card'>
-      <Card>
-      <Card.Img variant="top" src="/src/assets/realisations/fresh-food.png" className='img-realisations'/>
+        <div className="border-real"></div>
+
+      <div className="container-fluid my-reals">
+      <div className="container-fluid realisations">
+      <div className="container-fluid col2-tabl">
+      <div className='container-fluid card'>
+      <div className="real">
+      <Card className="container-fluid cards-real">
+      <Card.Img variant="top" src="/src/assets/realisations/fresh-food.png" className='container-fluid img-realisations'/>
       <Card.Body>
         <Card.Title className='card-title-real'>Fresh Food</Card.Title>
         <Card.Text>
@@ -35,9 +40,11 @@ function Realisations () {
       </Card.Body>
     </Card>
     </div>
+    </div>
 
-    <div className='card'>
-    <Card>
+    <div className="container-fluid real">
+    <div className='container-fluid card'>
+    <Card  className="container-fluid cards-real">
       <Card.Img variant="top" src="/src/assets/realisations/restaurant-akira.png" className='img-realisations' />
       <Card.Body>
         <Card.Title className='card-title-real'>Restaurant Akira</Card.Title>
@@ -54,11 +61,12 @@ function Realisations () {
     </Card>
     </div>
     </div>
+    </div>
  
-
-    <div className='card'>
-    <div id="col2-tabl">
-    <Card>
+    <div className="container-fluid real">
+    <div className='container-fluid card'>
+    <div className="container-fluid col2-tabl">
+    <Card  className="container-fluid cards-real">
       <Card.Img variant="top" src="/src/assets/realisations/bien-etre.png" className='img-realisations' />
       <Card.Body>
         <Card.Title className='card-title-real'>Espace bien-être</Card.Title>
@@ -73,6 +81,8 @@ function Realisations () {
         </Card.Text>
       </Card.Body>
     </Card>
+    </div>
+    </div>
     </div>
     </div>
     </div>
