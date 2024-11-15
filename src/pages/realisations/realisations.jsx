@@ -10,7 +10,7 @@ function Realisations () {
         <Header/>
         
         <div className="Realisations">
-            <div className="ban-real"> </div>
+        <img src="/src/assets/banner-mobile.jpg" className="ban-real"></img>
 
         <div className="title">
         <h2 className="title-realisations"> PORTFOLIO</h2>
@@ -19,12 +19,13 @@ function Realisations () {
 
         <div className="border-real"></div>
 
-      <div className="realisations">
-      <div className="col2-tabl">
-      <div className='card'>
+      <div className="container-fluid my-reals">
+      <div className="container-fluid realisations">
+      <div className="container-fluid col2-tabl">
+      <div className='container-fluid card'>
       <div className="real">
-      <Card>
-      <Card.Img variant="top" src="/src/assets/realisations/fresh-food.png" className='img-realisations'/>
+      <Card className="container-fluid cards-real">
+      <Card.Img variant="top" src="/src/assets/realisations/fresh-food.png" className='container-fluid img-realisations'/>
       <Card.Body>
         <Card.Title className='card-title-real'>Fresh Food</Card.Title>
         <Card.Text>
@@ -41,9 +42,9 @@ function Realisations () {
     </div>
     </div>
 
-    <div className="real">
-    <div className='card'>
-    <Card>
+    <div className="container-fluid real">
+    <div className='container-fluid card'>
+    <Card  className="container-fluid cards-real">
       <Card.Img variant="top" src="/src/assets/realisations/restaurant-akira.png" className='img-realisations' />
       <Card.Body>
         <Card.Title className='card-title-real'>Restaurant Akira</Card.Title>
@@ -62,10 +63,10 @@ function Realisations () {
     </div>
     </div>
  
-    <div className="real">
-    <div className='card'>
-    <div className="col2-tabl">
-    <Card>
+    <div className="container-fluid real">
+    <div className='container-fluid card'>
+    <div className="container-fluid col2-tabl">
+    <Card  className="container-fluid cards-real">
       <Card.Img variant="top" src="/src/assets/realisations/bien-etre.png" className='img-realisations' />
       <Card.Body>
         <Card.Title className='card-title-real'>Espace bien-être</Card.Title>
@@ -80,6 +81,7 @@ function Realisations () {
         </Card.Text>
       </Card.Body>
     </Card>
+    </div>
     </div>
     </div>
     </div>

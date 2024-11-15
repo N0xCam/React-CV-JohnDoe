@@ -10,10 +10,19 @@
     padding-bottom: 0em;
     text-transform:uppercase;
     font-weight: 30;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.accordion-button{
+    font-weight: 500;
 }
 
 .accordion-button:hover {
     color: #0d6efd;
+    font-weight: 500;
     background-color: white;
 }
 
@@ -57,6 +66,7 @@ svg {
 .accordion-body-cr {
     padding-top: 1em;
     padding-bottom: 1em;
+    margin-left: 1em;
 }
 
 /* Tablette */
@@ -75,5 +85,10 @@ svg {
 
 /* Desktop */
 @media (min-width: 991px) {
-
+    .border-ment {
+        border-bottom: 0.4em solid #0d6efd;
+        width: 12em;
+        margin-left: 25em;
+        margin-bottom: 1em;
+    }
 }

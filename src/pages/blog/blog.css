@@ -1,155 +1,132 @@
 .ban-blog {
-    background-image: url(/src/assets/banner-mobile.jpg);
-    height: 7em;
-    width: 26em;
-    background-size: cover;
+    width: 100%;
 }
 
 .title-blog {
     display:flex;
-    margin-top: 10em;
-    margin-top: 2em;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2.5em;
     font-weight: 500;
-    font-size: 2em;
-    margin-left: 5em;
+    padding-top: 2em;
+    width: 100%;
 }
 
 .little-tittle-blog {
-    font-size: 1.4em;
-    width: 15em;
-    margin-left: 2em;
-    padding-top: 0.5em;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 1em;
+    font-size: 1.2em;
+    width: 100%;
 }
 
 .border-blog {
     border-bottom: 0.4em solid #0d6efd;
     width: 7em;
-    margin-left: 9em;
+    margin-left: 10em;
     margin-bottom: 3em;
 }
 
-.realisations {
-    width: 7em;
-    border-top: solid 1px #c4c9d1;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-}
-
-.img-blog {
-    width: 24em;
-}
-
-.blog-tablette {
-    margin-left: 1em;
-    width: 10em;
-}
-
-.blog {
-    font-size: 1.5em;
-    font-weight: 600;
+.title-art-blog {
     display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 2em;
+}
+
+.text-blog {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.date-blog {
+    display: flex;
+    flex-direction: column;
     text-align: start;
-    width: 14em;
-    padding-left: 0.5em;
+    font-size: 0.5em;
 }
 
-.techno-blog {
-    border-top: solid 1px #c4c9d1;
+.but-blog {
     display: flex;
-    width: 21.6em;
-    padding-left: 1em;
+    align-items: start;
 }
 
-.btn-blog {
-    display: flex;
-    height: 2.2em;
-    width: 6.5em;
-    font-size: 1.2em;
-    text-align: center;
-    margin-bottom: 1em;
-    margin-left: 1em;
-}
-
-.text {
-    padding-left: 1em;
-    width: 25em;
-}
 
 /* Tablette */
 @media (min-width: 768px) {
 
     .ban-blog {
-        background-image: url(/src/assets/banner-mobile.jpg);
-        height: 10em;
-        width: 50em;
-        background-size: cover;
+        width: 100%;
+        height: 8em;
     }
 
     .title-blog {
         font-size: 2em;
-        font-weight: 600;
-        padding-left: 6em;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
     .little-tittle-blog {
-        width: 50em;
-        margin-left: 5em;
-        display: flex;
-    }
-
-    .realisations {
-        display: flex;
-        width: 22em;
-        margin-right: 1.5em;
-        padding-top: 0em;
-
-    }
-
-    .border-blog {
-        border-bottom: 0.3em solid #0d6efd;
-        width: 11.5em;
-        margin-left: 19em;
-        margin-bottom: 3em;
-    }
-
-    .techno-blog {
-        border-top: 0.1em solid #c4c9d1;
-        width: 21em;
-    }
-    .img-blog {
-        width: 21em;
-    }
-    .blog {
-        font-size: 1.5em;
+        width: 100%;
         display: flex;
         flex-direction: column;
+        text-align: center;
+    }
+    .border-blog {
+        border-bottom: 0.4em solid #0d6efd;
+        width: 7em;
+        margin-left: 20em;
+        margin-bottom: 3em;
     }
     .realisations {
-        display: flex;
-        flex-direction: row;
+        padding-left: 0em;
     }
-   .blog-desktop {
-    display: flex;
-    flex-direction: column;
-    column-count: 2;
-    
-    
-   }
-   .text {
-    width: 20em;
-   }
-}
+    .col2-tabl {
+        padding-bottom: 2em;
+        padding-left: 0.1em;
+    }
+    .real {
+        padding-left: 0.1em;
+        padding-right:0em;
+    }
+    }
+
 
 /* Desktop */
 @media (min-width: 991px) {
 
     .ban-blog {
-        background-image: url(/src/assets/banner-mobile.jpg);
-        height: 7em;
-        width: 80em;
-        background-size: cover;
+        width: 100%;
+        height: 8em;
     }
-    .blog-desktop {
+    .title-blog {
+        font-size: 2em;
+        width: 100%;
         display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .little-tittle-blog {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .border-blog {
+        border-bottom: 0.4em solid #0d6efd;
+        width: 15em;
+        margin-left: 25em;
+        margin-bottom: 3em;
+    }
+    .realisations {
+        width: 50%;
+    }
+    .col2-tabl {
+        width: 100%;
+        padding-right:0em;
     }
     }   

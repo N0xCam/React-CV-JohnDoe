@@ -119,41 +119,67 @@
     
     .title-service {
         display: flex;
-        margin-left: 6em;
+        flex-direction: column;
+        text-align: center;
         font-size: 2em;
+        margin-left: 0;
         font-weight: 500;
+        width: 100%;
     }
     .img-article {
         width: 3em;
         margin-right: 2em;
     }
     .presta {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
         font-size: 1em;
         padding-right: 0px;
         margin-right: 0px;
-        margin-left: 19em;
+        margin-left: 0em;
+  
     }
     .border-services {
-        width: 14em;
-        margin-left: 25em;
+        width: 2em;
+        padding-left: 25em;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+
     }
     .col {
         display: flex;
         align-self: flex-start;
-        width: 30em; 
+        width: 100%;
     }
     .text-service {
         font-size: 1em;
-        width: 20em;
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+        width: 100%;
+        padding-left: 2em;
+        padding-right: 2em;
     } 
     .img-article {
         width: 3.5em;
+        
     }
     .my-services {
         font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
     }
     .descri-services {
         padding-left: 0em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
         
     }
 }

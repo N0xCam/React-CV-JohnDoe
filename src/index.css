@@ -21,6 +21,41 @@
   right: 120px;
 }
 
+/*Github*/
+.profil {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  padding-top: 1em;
+  font-weight: 500;
+}
+.name-profil {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+}
+.div-img-github {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.github-picture {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 32em;
+}
+.text-profil {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  font-size: 1.2em;
+}
+
 
 button {
   border-radius: 8px;

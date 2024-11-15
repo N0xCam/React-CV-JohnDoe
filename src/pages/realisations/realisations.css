@@ -1,11 +1,11 @@
 .ban-real {
-    background-image: url(/src/assets/banner-mobile.jpg);
-    height: 7em;
-    width: 26em;
-    background-size: cover;
+    width: 100%;
 }
 
 .title-realisations {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     padding-top: 2em;
     font-size: 2.2em;
     font-weight: 500;
@@ -13,9 +13,12 @@
 }
 
 .little-title-realisations {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     font-size: 1.7em;
     font-weight: 500;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
     width: 15em;
     margin-left: 0em;
 }
@@ -25,56 +28,44 @@
     width: 7em;
     margin-left: 9em;
 }
-
-.realisations {
-    padding-top: 3em;
+.real {
+    width: 100%;
+}
+.cards-real {
+    width: 29em;
+    padding-left: 0em;
 }
 
 .img-realisations {
-    width: 24.5em;
     padding-left: 0em;
-}
-
-.real {
-    padding-left: 1em;
-    padding-bottom: 2em;
+    padding-right: 0em;
+    height: 15em;
 }
 
 .card-title-real {
-    font-size: 2em;
-    font-weight: 500;
-    padding-top: 0.5em;
+    font-size:1.5em;
+    font-weight: 550;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .card-text {
-    font-size: 1.1em;
-}
-
-.card-body {
-    padding-bottom: 0em;
-    padding-left: 0em;
-}
-
-.techno {
-    padding-top: 0.5em;
-    margin-top: 1em;
-    width: 22.4em;
-    padding-right: 2em;
-    padding-left: 4em;
-    border-top-width: 2px;
-    border-top: 0.1em solid #0209134b;
-    border-top-style: solid;
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 .btn-real {
-    padding-bottom: 1em;
-    color:  #0d6efd;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    margin-left: 11em;
+    color: #0d6efd;
     background-color: white;
-    width: 4.1em;
-    height: 2.4em;
-    font-size: 1.2em;
-    font-weight: 600;
+    width: 3.5em;
 }
 
 
@@ -82,25 +73,32 @@
 @media (min-width: 768px) {
 
     .ban-real {
-        width: 50em;
-        height: 10em;
-        background-image: cover;
+        width: 100%;
+        height: 8em;
     }
     .title-realisations {
         font-size: 2.5em;
         display: flex;
+        flex-direction: column;
         text-align: center;
-        margin-left: 7em;
+       
         padding-bottom: 0em;
     }
     .little-title-realisations {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
         font-size: 1.2em;
-        margin-left: 10em;
-        width: 20em;
+        width: 100%;
     }
     .border-real {
         width: 10em;
         margin-left: 20em;
+        margin-bottom: 2em;
+    }
+    .cards-real {
+        margin-right: 0em;
+        padding-right: 0em;
     }
     .realisations {
         display: flex;
@@ -132,20 +130,27 @@
        width: 22em;
    }
    .btn-real {
-        margin-left: 2.5em;
+        margin-left: 8.5em;
+   }
+   .Services {
+    padding-bottom: 3em;
    }
 }
 
 /*Desktop */
 @media (min-width: 991px) {
     .ban-real {
-        width: 63em;
+        width: 100%;
     }
     .title-realisations {
-        margin-left: 9em;
-        padding-top: 1em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
     .little-title-realisations {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
         font-size: 1.5em;
     }
     .border-real {
@@ -159,5 +164,23 @@
     display: flex;
     flex-direction: row;
    }
-   
+   .real {
+    width: 20em;
+   }
+   .img-realisations {
+    width: 19em;
+   }
+   .cards-real {
+    display: flex;
+    width: 100%;
+   }
+   .my-reals {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    width: 100%;
+   }
+   .Services {
+    padding-bottom: 10em;
+   }
    }

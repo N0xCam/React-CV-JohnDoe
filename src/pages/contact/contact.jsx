@@ -24,9 +24,9 @@ function Contact () {
             <form>
             <div className="mb-3">
                 <input
-                  type="text"
+                  type="email"
                   className="form-control"
-                  className="name"
+                  className="email"
                   placeholder="Votre nom"
                   required={true}
                 />
